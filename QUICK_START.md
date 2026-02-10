@@ -5,7 +5,7 @@
 ### What You're Getting
 
 A beautiful website at `https://YOUR-USERNAME.github.io/events-calendar/` that:
-- ✅ Shows all 114 events color-coded
+- ✅ Shows all 114 events color-coded (🔵 Dolphins, 🟡 Knicks, ⚪ Rangers, 🟢 Other)
 - ✅ Auto-updates every 2 weeks
 - ✅ Lets visitors add events to their calendar
 - ✅ Works on phone, tablet, computer

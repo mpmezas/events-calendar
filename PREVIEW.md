@@ -26,8 +26,8 @@
 │  [📥 Add All Selected]  [☑️ Select All]         │
 │  [☐ Deselect All]      [💾 Download ICS]       │
 │                                                 │
-│  Filter: [All Events] [🟡 Knicks] [⚪ Rangers]  │
-│         [🟢 Other]                              │
+│  Filter: [All Events] [🔵 Dolphins] [🟡 Knicks]   │
+│         [⚪ Rangers] [🟢 Other]                    │
 │                                                 │
 │  🔍 [Search events...]                         │
 └─────────────────────────────────────────────────┘
@@ -63,6 +63,7 @@
 
 **Header:** Deep blue gradient
 **Event Cards:**
+- 🔵 Dolphins: Teal/Aqua left border, light teal background
 - 🟡 Knicks: Yellow left border, light yellow background
 - ⚪ Rangers: Blue left border, light blue background  
 - 🟢 Other: Green left border, light green background

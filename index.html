@@ -5,45 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2026 Events Calendar - Kaseya & MSG Venues</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
         }
-
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
         }
-
         .header {
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
             padding: 40px 30px;
             text-align: center;
         }
-
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        .header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.9; }
         .last-updated {
             background: #f8f9fa;
             padding: 15px 30px;
@@ -54,38 +38,36 @@
             flex-wrap: wrap;
             gap: 10px;
         }
-
-        .stats {
+        .stats { display: flex; gap: 20px; flex-wrap: wrap; }
+        .stat { display: flex; align-items: center; gap: 8px; font-size: 0.95em; }
+        .stat-number { font-weight: bold; color: #1e3c72; }
+        .controls { padding: 30px; background: #f8f9fa; border-bottom: 1px solid #e0e0e0; }
+        .view-toggle {
             display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
+            gap: 0;
+            margin-bottom: 20px;
+            border: 2px solid #1e3c72;
+            border-radius: 8px;
+            overflow: hidden;
+            width: fit-content;
         }
-
-        .stat {
+        .view-btn {
+            padding: 10px 20px;
+            background: white;
+            color: #1e3c72;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s;
             display: flex;
             align-items: center;
             gap: 8px;
-            font-size: 0.95em;
         }
-
-        .stat-number {
-            font-weight: bold;
-            color: #1e3c72;
-        }
-
-        .controls {
-            padding: 30px;
-            background: #f8f9fa;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .button-group {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-        }
-
+        .view-btn:first-child { border-right: 1px solid #1e3c72; }
+        .view-btn.active { background: #1e3c72; color: white; }
+        .view-btn:hover:not(.active) { background: #e8eef7; }
+        .button-group { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; }
         .btn {
             padding: 12px 24px;
             border: none;
@@ -98,42 +80,47 @@
             align-items: center;
             gap: 8px;
         }
-
-        .btn-primary {
-            background: #1e3c72;
-            color: white;
-        }
-
+        .btn-primary { background: #1e3c72; color: white; }
         .btn-primary:hover {
             background: #2a5298;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(30,60,114,0.3);
         }
-
-        .btn-secondary {
-            background: white;
-            color: #1e3c72;
-            border: 2px solid #1e3c72;
-        }
-
-        .btn-secondary:hover {
-            background: #1e3c72;
-            color: white;
-        }
-
-        .filters {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .filter-group {
+        .btn-secondary { background: white; color: #1e3c72; border: 2px solid #1e3c72; }
+        .btn-secondary:hover { background: #1e3c72; color: white; }
+        .category-downloads {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
+            padding: 20px;
+            background: #e8f4f8;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
-
+        .category-downloads h3 {
+            width: 100%;
+            font-size: 1em;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        .category-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9em;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: white;
+        }
+        .category-btn.dolphins { background: #008E97; }
+        .category-btn.heat { background: #DC2626; }
+        .category-btn.knicks { background: #FDB927; color: #000; }
+        .category-btn.rangers { background: #0033A0; }
+        .category-btn.other { background: #10B981; }
+        .category-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+        .filters { display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
+        .filter-group { display: flex; gap: 10px; flex-wrap: wrap; }
         .filter-btn {
             padding: 8px 16px;
             border: 2px solid #ddd;
@@ -143,67 +130,13 @@
             font-size: 0.9em;
             transition: all 0.3s;
         }
-
-        .filter-btn:hover {
-            border-color: #1e3c72;
-        }
-
-        .filter-btn.active {
-            background: #1e3c72;
-            color: white;
-            border-color: #1e3c72;
-        }
-
-        .filter-btn.dolphins.active {
-            background: #008E97;
-            border-color: #008E97;
-            color: white;
-        }
-
-        .filter-btn.knicks.active {
-            background: #FDB927;
-            border-color: #FDB927;
-            color: #000;
-        }
-
-        .filter-btn.rangers.active {
-            background: #0033A0;
-            border-color: #0033A0;
-            color: white;
-        }
-
-        .filter-btn.other.active {
-            background: #10B981;
-            border-color: #10B981;
-            color: white;
-        }
-
-        .search-box {
-            flex: 1;
-            min-width: 250px;
-        }
-
-        .search-box input {
-            width: 100%;
-            padding: 10px 15px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            font-size: 1em;
-        }
-
-        .search-box input:focus {
-            outline: none;
-            border-color: #1e3c72;
-        }
-
-        .events-list {
-            padding: 30px;
-        }
-
-        .month-section {
-            margin-bottom: 40px;
-        }
-
+        .filter-btn:hover { border-color: #1e3c72; }
+        .filter-btn.active { background: #1e3c72; color: white; border-color: #1e3c72; }
+        .checkbox-container { display: flex; align-items: center; }
+        .checkbox-container input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; }
+        .list-view { display: none; padding: 30px; }
+        .list-view.active { display: block; }
+        .month-section { margin-bottom: 40px; }
         .month-header {
             font-size: 1.8em;
             color: #1e3c72;
@@ -211,7 +144,6 @@
             padding-bottom: 10px;
             border-bottom: 3px solid #1e3c72;
         }
-
         .event-card {
             background: white;
             border-radius: 12px;
@@ -226,77 +158,34 @@
             flex-wrap: wrap;
             gap: 15px;
         }
-
-        .event-card:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-
+        .event-card:hover { transform: translateX(5px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
         .event-card.dolphins {
             border-left-color: #008E97;
             background: linear-gradient(to right, rgba(0, 142, 151, 0.05) 0%, white 10%);
         }
-
+        .event-card.heat {
+            border-left-color: #DC2626;
+            background: linear-gradient(to right, rgba(220, 38, 38, 0.05) 0%, white 10%);
+        }
         .event-card.knicks {
             border-left-color: #FDB927;
             background: linear-gradient(to right, rgba(253, 185, 39, 0.05) 0%, white 10%);
         }
-
         .event-card.rangers {
             border-left-color: #0033A0;
             background: linear-gradient(to right, rgba(0, 51, 160, 0.05) 0%, white 10%);
         }
-
         .event-card.other {
             border-left-color: #10B981;
             background: linear-gradient(to right, rgba(16, 185, 129, 0.05) 0%, white 10%);
         }
-
-        .event-info {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        .event-title {
-            font-size: 1.3em;
-            font-weight: 600;
-            color: #1e3c72;
-            margin-bottom: 8px;
-        }
-
-        .event-details {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            color: #666;
-            font-size: 0.95em;
-        }
-
-        .event-detail {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .event-actions {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-        }
-
-        .checkbox-container input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-        }
-
+        .event-info { flex: 1; min-width: 300px; }
+        .event-title { font-size: 1.3em; font-weight: 600; color: #1e3c72; margin-bottom: 8px; }
+        .event-details { display: flex; gap: 20px; flex-wrap: wrap; color: #666; font-size: 0.95em; }
+        .event-detail { display: flex; align-items: center; gap: 6px; }
+        .event-actions { display: flex; gap: 10px; align-items: center; }
         .add-to-cal-btn {
-            padding: 8px 16px;
+            padding: 10px 20px;
             background: #10B981;
             color: white;
             border: none;
@@ -306,55 +195,226 @@
             font-weight: 600;
             transition: all 0.3s;
         }
-
-        .add-to-cal-btn:hover {
-            background: #059669;
-            transform: translateY(-2px);
+        .add-to-cal-btn:hover { background: #059669; transform: translateY(-2px); }
+        .calendar-view { display: none; }
+        .calendar-view.active { display: block; }
+        .month-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 30px;
+            background: white;
+            border-bottom: 2px solid #e0e0e0;
         }
-
-        .no-events {
-            text-align: center;
-            padding: 60px 20px;
-            color: #999;
-            font-size: 1.2em;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 60px 20px;
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        .footer {
+        .month-nav button {
+            padding: 10px 20px;
             background: #1e3c72;
             color: white;
-            padding: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .month-nav button:hover { background: #2a5298; transform: translateY(-2px); }
+        .month-nav button:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+        .current-month {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #1e3c72;
+            min-width: 250px;
             text-align: center;
         }
-
+        .calendar-container { padding: 30px; }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 1px;
+            background: #e0e0e0;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .calendar-header {
+            background: #1e3c72;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        .calendar-day {
+            background: white;
+            min-height: 120px;
+            padding: 8px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .calendar-day:hover { background: #f8f9fa; }
+        .calendar-day.other-month { background: #fafafa; opacity: 0.5; }
+        .calendar-day.today { background: #fff3cd; }
+        .day-number { font-weight: 600; color: #1e3c72; margin-bottom: 5px; font-size: 0.95em; }
+        .calendar-day.other-month .day-number { color: #999; }
+        .day-events { display: flex; flex-direction: column; gap: 3px; }
+        .calendar-event {
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 3px solid;
+            background: white;
+        }
+        .calendar-event:hover { transform: translateX(3px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .calendar-event.dolphins {
+            border-left-color: #008E97;
+            background: rgba(0, 142, 151, 0.1);
+            color: #006b73;
+        }
+        .calendar-event.heat {
+            border-left-color: #DC2626;
+            background: rgba(220, 38, 38, 0.1);
+            color: #991b1b;
+        }
+        .calendar-event.knicks {
+            border-left-color: #FDB927;
+            background: rgba(253, 185, 39, 0.1);
+            color: #b8860b;
+        }
+        .calendar-event.rangers {
+            border-left-color: #0033A0;
+            background: rgba(0, 51, 160, 0.1);
+            color: #002875;
+        }
+        .calendar-event.other {
+            border-left-color: #10B981;
+            background: rgba(16, 185, 129, 0.1);
+            color: #047857;
+        }
+        .event-time { font-weight: 600; margin-right: 3px; }
+        .more-events { font-size: 0.7em; color: #666; margin-top: 3px; font-style: italic; }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .modal.active { display: flex; }
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        .modal-header {
+            padding: 20px 30px;
+            border-bottom: 2px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-title { font-size: 1.5em; font-weight: 700; color: #1e3c72; }
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 2em;
+            cursor: pointer;
+            color: #666;
+            line-height: 1;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .modal-close:hover { color: #1e3c72; }
+        .modal-body { padding: 30px; }
+        .modal-actions {
+            padding: 20px 30px;
+            border-top: 2px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+        .event-detail-card {
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid;
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+        .event-detail-card.dolphins { border-left-color: #008E97; background: rgba(0, 142, 151, 0.05); }
+        .event-detail-card.heat { border-left-color: #DC2626; background: rgba(220, 38, 38, 0.05); }
+        .event-detail-card.knicks { border-left-color: #FDB927; background: rgba(253, 185, 39, 0.05); }
+        .event-detail-card.rangers { border-left-color: #0033A0; background: rgba(0, 51, 160, 0.05); }
+        .event-detail-card.other { border-left-color: #10B981; background: rgba(16, 185, 129, 0.05); }
+        .event-detail-main { flex: 1; }
+        .event-detail-title { font-size: 1.2em; font-weight: 600; color: #1e3c72; margin-bottom: 10px; }
+        .event-detail-info { display: flex; flex-direction: column; gap: 8px; color: #666; }
+        .event-detail-info div { display: flex; align-items: center; gap: 8px; }
+        .legend {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+            justify-content: center;
+        }
+        .legend-item { display: flex; align-items: center; gap: 8px; font-size: 0.9em; }
+        .legend-color { width: 20px; height: 20px; border-radius: 4px; border: 2px solid; }
+        .legend-color.dolphins { background: rgba(0, 142, 151, 0.2); border-color: #008E97; }
+        .legend-color.heat { background: rgba(220, 38, 38, 0.2); border-color: #DC2626; }
+        .legend-color.knicks { background: rgba(253, 185, 39, 0.2); border-color: #FDB927; }
+        .legend-color.rangers { background: rgba(0, 51, 160, 0.2); border-color: #0033A0; }
+        .legend-color.other { background: rgba(16, 185, 129, 0.2); border-color: #10B981; }
+        .no-events { text-align: center; padding: 60px 20px; color: #999; font-size: 1.2em; }
+        .footer { background: #1e3c72; color: white; padding: 20px; text-align: center; }
+        .help-box {
+            background: #fff9e6;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .help-box strong { color: #92400e; }
+        @media (max-width: 968px) {
+            .calendar { font-size: 0.85em; }
+            .calendar-day { min-height: 100px; }
+            .calendar-event { font-size: 0.7em; }
+        }
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.8em;
-            }
-
-            .event-card {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .event-actions {
-                width: 100%;
-                justify-content: flex-end;
-            }
+            .header h1 { font-size: 1.8em; }
+            .current-month { font-size: 1.4em; min-width: 200px; }
+            .event-card { flex-direction: column; align-items: flex-start; }
+            .event-actions { width: 100%; flex-wrap: wrap; }
+            .calendar { font-size: 0.75em; }
+            .calendar-day { min-height: 80px; padding: 5px; }
+            .calendar-header { padding: 10px 5px; font-size: 0.8em; }
+            .calendar-event { font-size: 0.65em; padding: 3px 4px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎭 2026 Events Calendar</h1>
-            <p>🔵 Dolphins • 🟡 Knicks • ⚪ Rangers • 🟢 Other Events</p>
+            <h1>📅 2026 Events Calendar</h1>
+            <p>🔵 Dolphins • 🔴 Miami Heat • 🟡 Knicks • ⚪ Rangers • 🟢 Other Events</p>
             <p style="margin-top: 5px; font-size: 0.9em;">Kaseya Center & MSG Venues • Auto-Updated Every 2 Weeks</p>
         </div>
 
@@ -376,38 +436,71 @@
         </div>
 
         <div class="controls">
+            <div class="view-toggle">
+                <button class="view-btn active" onclick="switchView('calendar')">📅 Calendar View</button>
+                <button class="view-btn" onclick="switchView('list')">📋 List View</button>
+            </div>
+
+            <div class="category-downloads">
+                <h3>🎨 Download by Category (for automatic Google Calendar colors):</h3>
+                <button class="category-btn dolphins" onclick="downloadCategory('dolphins')">
+                    🔵 Dolphins Calendar (0 events)
+                </button>
+                <button class="category-btn heat" onclick="downloadCategory('heat')">
+                    🔴 Miami Heat Calendar (<span id="heatCount">10</span> events)
+                </button>
+                <button class="category-btn knicks" onclick="downloadCategory('knicks')">
+                    🟡 Knicks Calendar (8 events)
+                </button>
+                <button class="category-btn rangers" onclick="downloadCategory('rangers')">
+                    ⚪ Rangers Calendar (7 events)
+                </button>
+                <button class="category-btn other" onclick="downloadCategory('other')">
+                    🟢 Other Events Calendar (<span id="otherCount">89</span> events)
+                </button>
+                <div class="help-box">
+                    <strong>💡 For color-coded Google Calendar:</strong> Download each category separately, import each as a different calendar in Google Calendar, then assign colors to each calendar (Red for Heat, Yellow for Knicks, Blue for Rangers, etc.). All events in that calendar will automatically have that color!
+                </div>
+            </div>
+
             <div class="button-group">
-                <button class="btn btn-primary" onclick="addAllToCalendar()">
-                    📥 Add All Selected to Calendar
-                </button>
-                <button class="btn btn-secondary" onclick="selectAll()">
-                    ☑️ Select All
-                </button>
-                <button class="btn btn-secondary" onclick="deselectAll()">
-                    ☐ Deselect All
-                </button>
-                <button class="btn btn-secondary" onclick="downloadICS()">
-                    💾 Download ICS File
-                </button>
+                <button class="btn btn-primary" onclick="addAllSelected()">📥 Add Selected to Calendar</button>
+                <button class="btn btn-secondary" onclick="selectAll()">☑️ Select All</button>
+                <button class="btn btn-secondary" onclick="deselectAll()">☐ Deselect All</button>
             </div>
 
             <div class="filters">
                 <div class="filter-group">
                     <span style="font-weight: 600;">Filter:</span>
                     <button class="filter-btn active" onclick="filterCategory('all')">All Events</button>
-                    <button class="filter-btn dolphins" onclick="filterCategory('dolphins')">🔵 Dolphins</button>
-                    <button class="filter-btn knicks" onclick="filterCategory('knicks')">🟡 Knicks</button>
-                    <button class="filter-btn rangers" onclick="filterCategory('rangers')">⚪ Rangers</button>
-                    <button class="filter-btn other" onclick="filterCategory('other')">🟢 Other</button>
-                </div>
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="🔍 Search events..." oninput="filterEvents()">
+                    <button class="filter-btn" onclick="filterCategory('dolphins')">🔵 Dolphins</button>
+                    <button class="filter-btn" onclick="filterCategory('heat')">🔴 Miami Heat</button>
+                    <button class="filter-btn" onclick="filterCategory('knicks')">🟡 Knicks</button>
+                    <button class="filter-btn" onclick="filterCategory('rangers')">⚪ Rangers</button>
+                    <button class="filter-btn" onclick="filterCategory('other')">🟢 Other</button>
                 </div>
             </div>
         </div>
 
-        <div class="events-list" id="eventsList">
-            <div class="loading">Loading events...</div>
+        <div class="calendar-view active">
+            <div class="month-nav">
+                <button onclick="previousMonth()" id="prevBtn">← Previous</button>
+                <div class="current-month" id="currentMonth">January 2026</div>
+                <button onclick="nextMonth()" id="nextBtn">Next →</button>
+            </div>
+            <div class="calendar-container">
+                <div class="calendar" id="calendar"><div class="loading">Loading calendar...</div></div>
+            </div>
+        </div>
+
+        <div class="list-view" id="listView"><div class="loading">Loading events...</div></div>
+
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color dolphins"></div><span>🔵 Dolphins (0)</span></div>
+            <div class="legend-item"><div class="legend-color heat"></div><span>🔴 Miami Heat (<span id="legendHeatCount">10</span>)</span></div>
+            <div class="legend-item"><div class="legend-color knicks"></div><span>🟡 Knicks (8)</span></div>
+            <div class="legend-item"><div class="legend-color rangers"></div><span>⚪ Rangers (7)</span></div>
+            <div class="legend-item"><div class="legend-color other"></div><span>🟢 Other (<span id="legendOtherCount">89</span>)</span></div>
         </div>
 
         <div class="footer">
@@ -416,38 +509,79 @@
         </div>
     </div>
 
+    <div class="modal" id="eventModal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div class="modal-title" id="modalDate">Events</div>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="selectAllInModal()">☑️ Select All</button>
+                <button class="btn btn-primary" onclick="addSelectedFromModal()">📥 Add Selected to Calendar</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let allEvents = [];
         let currentFilter = 'all';
-        let searchTerm = '';
+        let currentView = 'calendar';
+        let currentDate = new Date(2026, 0, 1);
+        const monthNames = ["January", "February", "March", "April", "May", "June",
+                           "July", "August", "September", "October", "November", "December"];
+        const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-        // Load events from JSON
         async function loadEvents() {
             try {
                 const response = await fetch('events.json');
                 const data = await response.json();
                 allEvents = data.events;
                 
-                document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleDateString();
+                const updateDate = new Date(data.lastUpdated);
+                const formattedDate = updateDate.toLocaleDateString('en-US', { 
+                    month: 'short', day: 'numeric', year: 'numeric' 
+                });
+                const formattedTime = updateDate.toLocaleTimeString('en-US', { 
+                    hour: 'numeric', minute: '2-digit', hour12: true 
+                });
+                document.getElementById('lastUpdated').textContent = `${formattedDate} at ${formattedTime}`;
                 document.getElementById('totalEvents').textContent = allEvents.length;
                 
-                renderEvents();
+                // Update counts
+                const heatCount = allEvents.filter(e => e.category === 'heat').length;
+                const otherCount = allEvents.filter(e => e.category === 'other').length;
+                document.getElementById('heatCount').textContent = heatCount;
+                document.getElementById('otherCount').textContent = otherCount;
+                document.getElementById('legendHeatCount').textContent = heatCount;
+                document.getElementById('legendOtherCount').textContent = otherCount;
+                
+                renderCalendar();
+                renderList();
             } catch (error) {
-                document.getElementById('eventsList').innerHTML = 
+                document.getElementById('calendar').innerHTML = 
                     '<div class="no-events">Error loading events. Please try again later.</div>';
             }
         }
 
-        // Render events
-        function renderEvents() {
-            const container = document.getElementById('eventsList');
+        function switchView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
             
-            // Filter events
+            if (view === 'calendar') {
+                document.querySelector('.calendar-view').classList.add('active');
+                document.querySelector('.list-view').classList.remove('active');
+            } else {
+                document.querySelector('.calendar-view').classList.remove('active');
+                document.querySelector('.list-view').classList.add('active');
+            }
+        }
+
+        function renderList() {
+            const container = document.getElementById('listView');
             let filteredEvents = allEvents.filter(event => {
-                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
-                const matchesSearch = event.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                                    event.venue.toLowerCase().includes(searchTerm.toLowerCase());
-                return matchesCategory && matchesSearch;
+                return currentFilter === 'all' || event.category === currentFilter;
             });
 
             if (filteredEvents.length === 0) {
@@ -455,36 +589,30 @@
                 return;
             }
 
-            // Group by month
             const eventsByMonth = {};
             filteredEvents.forEach(event => {
                 const date = new Date(event.date);
                 const monthKey = date.toLocaleString('default', { month: 'long', year: 'numeric' });
-                if (!eventsByMonth[monthKey]) {
-                    eventsByMonth[monthKey] = [];
-                }
+                if (!eventsByMonth[monthKey]) eventsByMonth[monthKey] = [];
                 eventsByMonth[monthKey].push(event);
             });
 
-            // Sort months chronologically
             const sortedMonths = Object.keys(eventsByMonth).sort((a, b) => {
                 return new Date(eventsByMonth[a][0].date) - new Date(eventsByMonth[b][0].date);
             });
 
-            // Render
             let html = '';
+            let eventIndex = 0;
             sortedMonths.forEach(month => {
-                html += `<div class="month-section">
-                    <h2 class="month-header">${month}</h2>`;
-                
-                eventsByMonth[month].forEach((event, index) => {
+                html += `<div class="month-section"><h2 class="month-header">${month}</h2>`;
+                eventsByMonth[month].forEach(event => {
                     const date = new Date(event.date);
                     const dayName = date.toLocaleDateString('default', { weekday: 'short' });
                     const dateStr = date.toLocaleDateString('default', { month: 'short', day: 'numeric' });
-                    const eventId = `event-${month}-${index}`;
+                    const eventId = `list-event-${eventIndex++}`;
                     
                     html += `
-                        <div class="event-card ${event.category}">
+                        <div class="event-card ${event.category}" data-event-id="${event.date}-${event.title.replace(/\s/g, '-')}">
                             <div class="event-info">
                                 <div class="event-title">${event.title}</div>
                                 <div class="event-details">
@@ -498,14 +626,13 @@
                                 <div class="checkbox-container">
                                     <input type="checkbox" id="${eventId}" onchange="updateSelectedCount()">
                                 </div>
-                                <button class="add-to-cal-btn" onclick="addSingleToCalendar('${eventId}')">
+                                <button class="add-to-cal-btn" onclick="addSingleEvent('${event.title.replace(/'/g, "\\'")}', '${event.date}')">
                                     Add to Calendar
                                 </button>
                             </div>
                         </div>
                     `;
                 });
-                
                 html += '</div>';
             });
 
@@ -513,42 +640,225 @@
             updateSelectedCount();
         }
 
-        // Filter by category
-        function filterCategory(category) {
-            currentFilter = category;
+        function renderCalendar() {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
             
-            // Update button states
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('active');
+            document.getElementById('currentMonth').textContent = `${monthNames[month]} ${year}`;
+            
+            const isFirstMonth = (year === 2026 && month === 0);
+            const isLastMonth = (year === 2026 && month === 11);
+            document.getElementById('prevBtn').disabled = isFirstMonth;
+            document.getElementById('nextBtn').disabled = isLastMonth;
+            
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const daysInPrevMonth = new Date(year, month, 0).getDate();
+            
+            const monthEvents = allEvents.filter(event => {
+                const eventDate = new Date(event.date);
+                const matchesMonth = eventDate.getMonth() === month && eventDate.getFullYear() === year;
+                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
+                return matchesMonth && matchesCategory;
             });
-            event.target.classList.add('active');
             
-            renderEvents();
+            const eventsByDay = {};
+            monthEvents.forEach(event => {
+                const day = new Date(event.date).getDate();
+                if (!eventsByDay[day]) eventsByDay[day] = [];
+                eventsByDay[day].push(event);
+            });
+            
+            let html = '';
+            dayNames.forEach(day => html += `<div class="calendar-header">${day}</div>`);
+            
+            for (let i = firstDay - 1; i >= 0; i--) {
+                const day = daysInPrevMonth - i;
+                html += `<div class="calendar-day other-month"><div class="day-number">${day}</div></div>`;
+            }
+            
+            const today = new Date();
+            for (let day = 1; day <= daysInMonth; day++) {
+                const isToday = (day === today.getDate() && month === today.getMonth() && year === today.getFullYear());
+                const dayEvents = eventsByDay[day] || [];
+                const hasEvents = dayEvents.length > 0;
+                
+                html += `<div class="calendar-day ${isToday ? 'today' : ''}" 
+                              ${hasEvents ? `onclick="showDayEvents(${year}, ${month}, ${day})"` : ''}>
+                    <div class="day-number">${day}</div><div class="day-events">`;
+                
+                dayEvents.slice(0, 3).forEach(event => {
+                    const time = formatTime(event.time);
+                    const title = truncateText(event.title, 25);
+                    html += `<div class="calendar-event ${event.category}">
+                        <span class="event-time">${time}</span>${title}
+                    </div>`;
+                });
+                
+                if (dayEvents.length > 3) {
+                    html += `<div class="more-events">+${dayEvents.length - 3} more</div>`;
+                }
+                html += `</div></div>`;
+            }
+            
+            const totalCells = firstDay + daysInMonth;
+            const remainingCells = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+            for (let day = 1; day <= remainingCells; day++) {
+                html += `<div class="calendar-day other-month"><div class="day-number">${day}</div></div>`;
+            }
+            
+            document.getElementById('calendar').innerHTML = html;
         }
 
-        // Filter events by search
-        function filterEvents() {
-            searchTerm = document.getElementById('searchInput').value;
-            renderEvents();
+        function formatTime(timeStr) {
+            const [hours, minutes] = timeStr.split(':');
+            const hour = parseInt(hours);
+            const ampm = hour >= 12 ? 'PM' : 'AM';
+            const hour12 = hour % 12 || 12;
+            return `${hour12}${ampm}`;
         }
 
-        // Select/Deselect all
+        function truncateText(text, maxLength) {
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+        }
+
+        function showDayEvents(year, month, day) {
+            const date = new Date(year, month, day);
+            const dateStr = date.toISOString().split('T')[0];
+            
+            const dayEvents = allEvents.filter(event => {
+                const matchesDate = event.date === dateStr;
+                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
+                return matchesDate && matchesCategory;
+            });
+            
+            if (dayEvents.length === 0) return;
+            dayEvents.sort((a, b) => a.time.localeCompare(b.time));
+            
+            const dayName = date.toLocaleDateString('default', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+            document.getElementById('modalDate').textContent = dayName;
+            
+            let html = '';
+            let eventIndex = 0;
+            dayEvents.forEach(event => {
+                const eventId = `modal-event-${eventIndex++}`;
+                html += `
+                    <div class="event-detail-card ${event.category}" data-event-id="${event.date}-${event.title.replace(/\s/g, '-')}">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="${eventId}" class="modal-checkbox" onchange="updateSelectedCount()">
+                        </div>
+                        <div class="event-detail-main">
+                            <div class="event-detail-title">${event.title}</div>
+                            <div class="event-detail-info">
+                                <div>🕐 ${event.time}</div>
+                                <div>📍 ${event.venue}</div>
+                                <div>🎫 ${event.type}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('modalBody').innerHTML = html;
+            document.getElementById('eventModal').classList.add('active');
+        }
+
+        function closeModal(event) {
+            if (!event || event.target.id === 'eventModal') {
+                document.getElementById('eventModal').classList.remove('active');
+            }
+        }
+
         function selectAll() {
-            document.querySelectorAll('.event-card input[type="checkbox"]').forEach(cb => cb.checked = true);
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
             updateSelectedCount();
         }
 
         function deselectAll() {
-            document.querySelectorAll('.event-card input[type="checkbox"]').forEach(cb => cb.checked = false);
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+            updateSelectedCount();
+        }
+
+        function selectAllInModal() {
+            document.querySelectorAll('.modal-checkbox').forEach(cb => cb.checked = true);
             updateSelectedCount();
         }
 
         function updateSelectedCount() {
-            const count = document.querySelectorAll('.event-card input[type="checkbox"]:checked').length;
+            const count = document.querySelectorAll('input[type="checkbox"]:checked').length;
             document.getElementById('selectedCount').textContent = count;
         }
 
-        // Add to calendar functions
+        function addSingleEvent(title, date) {
+            const event = allEvents.find(e => e.title === title && e.date === date);
+            if (event) {
+                const ics = createICS([event]);
+                downloadICSFile(ics, `${event.title.replace(/\s/g, '-')}.ics`);
+            }
+        }
+
+        function addAllSelected() {
+            const selectedEvents = [];
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => {
+                const card = cb.closest('[data-event-id]');
+                if (card) {
+                    const [date, ...titleParts] = card.dataset.eventId.split('-');
+                    const title = titleParts.join(' ');
+                    const event = allEvents.find(e => e.date === date && e.title.replace(/\s/g, '-') === titleParts.join('-'));
+                    if (event) selectedEvents.push(event);
+                }
+            });
+
+            if (selectedEvents.length === 0) {
+                alert('Please select at least one event!');
+                return;
+            }
+
+            const ics = createICS(selectedEvents);
+            downloadICSFile(ics, 'selected-events.ics');
+        }
+
+        function addSelectedFromModal() {
+            const selectedEvents = [];
+            document.querySelectorAll('.modal-checkbox:checked').forEach(cb => {
+                const card = cb.closest('[data-event-id]');
+                if (card) {
+                    const [date, ...titleParts] = card.dataset.eventId.split('-');
+                    const title = titleParts.join(' ');
+                    const event = allEvents.find(e => e.date === date && e.title.replace(/\s/g, '-') === titleParts.join('-'));
+                    if (event) selectedEvents.push(event);
+                }
+            });
+
+            if (selectedEvents.length === 0) {
+                alert('Please select at least one event!');
+                return;
+            }
+
+            const ics = createICS(selectedEvents);
+            downloadICSFile(ics, 'selected-events.ics');
+            closeModal();
+        }
+
+        function downloadCategory(category) {
+            const categoryEvents = allEvents.filter(e => e.category === category);
+            
+            if (categoryEvents.length === 0) {
+                alert(`No ${category} events found!`);
+                return;
+            }
+
+            const ics = createICS(categoryEvents);
+            const categoryNames = {
+                'dolphins': 'Dolphins',
+                'heat': 'Miami-Heat',
+                'knicks': 'Knicks',
+                'rangers': 'Rangers',
+                'other': 'Other-Events'
+            };
+            downloadICSFile(ics, `${categoryNames[category]}-2026.ics`);
+        }
+
         function createICS(events) {
             let ics = `BEGIN:VCALENDAR
 VERSION:2.0
@@ -580,42 +890,6 @@ END:VEVENT
             return ics;
         }
 
-        function addSingleToCalendar(eventId) {
-            const checkbox = document.getElementById(eventId);
-            const eventCard = checkbox.closest('.event-card');
-            const title = eventCard.querySelector('.event-title').textContent;
-            
-            const event = allEvents.find(e => e.title === title);
-            if (event) {
-                const ics = createICS([event]);
-                downloadICSFile(ics, `${event.title.replace(/\s/g, '-')}.ics`);
-            }
-        }
-
-        function addAllToCalendar() {
-            const selectedEvents = [];
-            document.querySelectorAll('.event-card input[type="checkbox"]:checked').forEach(cb => {
-                const eventCard = cb.closest('.event-card');
-                const title = eventCard.querySelector('.event-title').textContent;
-                const event = allEvents.find(e => e.title === title);
-                if (event) selectedEvents.push(event);
-            });
-
-            if (selectedEvents.length === 0) {
-                alert('Please select at least one event!');
-                return;
-            }
-
-            const ics = createICS(selectedEvents);
-            downloadICSFile(ics, 'selected-events.ics');
-        }
-
-        function downloadICS() {
-            if (allEvents.length === 0) return;
-            const ics = createICS(allEvents);
-            downloadICSFile(ics, 'all-events-2026.ics');
-        }
-
         function downloadICSFile(content, filename) {
             const blob = new Blob([content], { type: 'text/calendar' });
             const url = window.URL.createObjectURL(blob);
@@ -628,7 +902,24 @@ END:VEVENT
             window.URL.revokeObjectURL(url);
         }
 
-        // Load events on page load
+        function filterCategory(category) {
+            currentFilter = category;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderCalendar();
+            renderList();
+        }
+
+        function previousMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        }
+
+        function nextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        }
+
         loadEvents();
     </script>
 </body>

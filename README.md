@@ -7,6 +7,7 @@ A beautiful, auto-updating calendar website that displays events from Kaseya Cen
 ## ✨ Features
 
 - 📅 **114 Events** color-coded by category
+- 🔵 **Dolphins Games** (Blue) - Ready when events are added
 - 🟡 **Knicks Games** (Yellow)
 - ⚪ **Rangers Games** (White)
 - 🟢 **Other Events** (Green) - concerts, shows, Miami HEAT, etc.
@@ -182,6 +183,7 @@ python scrape_events.py
 
 ## 📊 Current Event Count
 
+- 🔵 **Dolphins:** 0 games (play at Hard Rock Stadium)
 - 🟡 **Knicks:** 8 games
 - ⚪ **Rangers:** 7 games
 - 🟢 **Other Events:** 99 events
