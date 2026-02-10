@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Events Calendar - Kaseya & MSG Venues</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+        }
+
+        .stat-number {
+            font-weight: bold;
+            color: #1e3c72;
+        }
+
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: #1e3c72;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2a5298;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(30,60,114,0.3);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #1e3c72;
+            border: 2px solid #1e3c72;
+        }
+
+        .btn-secondary:hover {
+            background: #1e3c72;
+            color: white;
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover {
+            border-color: #1e3c72;
+        }
+
+        .filter-btn.active {
+            background: #1e3c72;
+            color: white;
+            border-color: #1e3c72;
+        }
+
+        .filter-btn.knicks.active {
+            background: #FDB927;
+            border-color: #FDB927;
+            color: #000;
+        }
+
+        .filter-btn.rangers.active {
+            background: #0033A0;
+            border-color: #0033A0;
+            color: white;
+        }
+
+        .filter-btn.other.active {
+            background: #10B981;
+            border-color: #10B981;
+            color: white;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #1e3c72;
+        }
+
+        .events-list {
+            padding: 30px;
+        }
+
+        .month-section {
+            margin-bottom: 40px;
+        }
+
+        .month-header {
+            font-size: 1.8em;
+            color: #1e3c72;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #1e3c72;
+        }
+
+        .event-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .event-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .event-card.knicks {
+            border-left-color: #FDB927;
+            background: linear-gradient(to right, rgba(253, 185, 39, 0.05) 0%, white 10%);
+        }
+
+        .event-card.rangers {
+            border-left-color: #0033A0;
+            background: linear-gradient(to right, rgba(0, 51, 160, 0.05) 0%, white 10%);
+        }
+
+        .event-card.other {
+            border-left-color: #10B981;
+            background: linear-gradient(to right, rgba(16, 185, 129, 0.05) 0%, white 10%);
+        }
+
+        .event-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .event-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 8px;
+        }
+
+        .event-details {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .event-detail {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .event-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .add-to-cal-btn {
+            padding: 8px 16px;
+            background: #10B981;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .add-to-cal-btn:hover {
+            background: #059669;
+            transform: translateY(-2px);
+        }
+
+        .no-events {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .footer {
+            background: #1e3c72;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .event-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .event-actions {
+                width: 100%;
+                justify-content: flex-end;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎭 2026 Events Calendar</h1>
+            <p>Kaseya Center & MSG Venues • Auto-Updated Every 2 Weeks</p>
+        </div>
+
+        <div class="last-updated">
+            <div class="stats">
+                <div class="stat">
+                    <span>📅 Last Updated:</span>
+                    <span class="stat-number" id="lastUpdated">Loading...</span>
+                </div>
+                <div class="stat">
+                    <span>📊 Total Events:</span>
+                    <span class="stat-number" id="totalEvents">0</span>
+                </div>
+                <div class="stat">
+                    <span>✅ Selected:</span>
+                    <span class="stat-number" id="selectedCount">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="addAllToCalendar()">
+                    📥 Add All Selected to Calendar
+                </button>
+                <button class="btn btn-secondary" onclick="selectAll()">
+                    ☑️ Select All
+                </button>
+                <button class="btn btn-secondary" onclick="deselectAll()">
+                    ☐ Deselect All
+                </button>
+                <button class="btn btn-secondary" onclick="downloadICS()">
+                    💾 Download ICS File
+                </button>
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <span style="font-weight: 600;">Filter:</span>
+                    <button class="filter-btn active" onclick="filterCategory('all')">All Events</button>
+                    <button class="filter-btn knicks" onclick="filterCategory('knicks')">🟡 Knicks</button>
+                    <button class="filter-btn rangers" onclick="filterCategory('rangers')">⚪ Rangers</button>
+                    <button class="filter-btn other" onclick="filterCategory('other')">🟢 Other</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="🔍 Search events..." oninput="filterEvents()">
+                </div>
+            </div>
+        </div>
+
+        <div class="events-list" id="eventsList">
+            <div class="loading">Loading events...</div>
+        </div>
+
+        <div class="footer">
+            <p>Data from <strong>Kaseya Center</strong> & <strong>MSG Venues</strong> (Madison Square Garden, Radio City Music Hall, Beacon Theatre, Infosys Theater)</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Auto-updated via GitHub Actions • No Dolphins events (they play at Hard Rock Stadium)</p>
+        </div>
+    </div>
+
+    <script>
+        let allEvents = [];
+        let currentFilter = 'all';
+        let searchTerm = '';
+
+        // Load events from JSON
+        async function loadEvents() {
+            try {
+                const response = await fetch('events.json');
+                const data = await response.json();
+                allEvents = data.events;
+                
+                document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleDateString();
+                document.getElementById('totalEvents').textContent = allEvents.length;
+                
+                renderEvents();
+            } catch (error) {
+                document.getElementById('eventsList').innerHTML = 
+                    '<div class="no-events">Error loading events. Please try again later.</div>';
+            }
+        }
+
+        // Render events
+        function renderEvents() {
+            const container = document.getElementById('eventsList');
+            
+            // Filter events
+            let filteredEvents = allEvents.filter(event => {
+                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
+                const matchesSearch = event.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                    event.venue.toLowerCase().includes(searchTerm.toLowerCase());
+                return matchesCategory && matchesSearch;
+            });
+
+            if (filteredEvents.length === 0) {
+                container.innerHTML = '<div class="no-events">No events found matching your criteria.</div>';
+                return;
+            }
+
+            // Group by month
+            const eventsByMonth = {};
+            filteredEvents.forEach(event => {
+                const date = new Date(event.date);
+                const monthKey = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+                if (!eventsByMonth[monthKey]) {
+                    eventsByMonth[monthKey] = [];
+                }
+                eventsByMonth[monthKey].push(event);
+            });
+
+            // Sort months chronologically
+            const sortedMonths = Object.keys(eventsByMonth).sort((a, b) => {
+                return new Date(eventsByMonth[a][0].date) - new Date(eventsByMonth[b][0].date);
+            });
+
+            // Render
+            let html = '';
+            sortedMonths.forEach(month => {
+                html += `<div class="month-section">
+                    <h2 class="month-header">${month}</h2>`;
+                
+                eventsByMonth[month].forEach((event, index) => {
+                    const date = new Date(event.date);
+                    const dayName = date.toLocaleDateString('default', { weekday: 'short' });
+                    const dateStr = date.toLocaleDateString('default', { month: 'short', day: 'numeric' });
+                    const eventId = `event-${month}-${index}`;
+                    
+                    html += `
+                        <div class="event-card ${event.category}">
+                            <div class="event-info">
+                                <div class="event-title">${event.title}</div>
+                                <div class="event-details">
+                                    <div class="event-detail">📅 ${dayName}, ${dateStr}</div>
+                                    <div class="event-detail">🕐 ${event.time}</div>
+                                    <div class="event-detail">📍 ${event.venue}</div>
+                                    <div class="event-detail">🎫 ${event.type}</div>
+                                </div>
+                            </div>
+                            <div class="event-actions">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="${eventId}" onchange="updateSelectedCount()">
+                                </div>
+                                <button class="add-to-cal-btn" onclick="addSingleToCalendar('${eventId}')">
+                                    Add to Calendar
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+            });
+
+            container.innerHTML = html;
+            updateSelectedCount();
+        }
+
+        // Filter by category
+        function filterCategory(category) {
+            currentFilter = category;
+            
+            // Update button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            renderEvents();
+        }
+
+        // Filter events by search
+        function filterEvents() {
+            searchTerm = document.getElementById('searchInput').value;
+            renderEvents();
+        }
+
+        // Select/Deselect all
+        function selectAll() {
+            document.querySelectorAll('.event-card input[type="checkbox"]').forEach(cb => cb.checked = true);
+            updateSelectedCount();
+        }
+
+        function deselectAll() {
+            document.querySelectorAll('.event-card input[type="checkbox"]').forEach(cb => cb.checked = false);
+            updateSelectedCount();
+        }
+
+        function updateSelectedCount() {
+            const count = document.querySelectorAll('.event-card input[type="checkbox"]:checked').length;
+            document.getElementById('selectedCount').textContent = count;
+        }
+
+        // Add to calendar functions
+        function createICS(events) {
+            let ics = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//2026 Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 Events
+X-WR-TIMEZONE:America/New_York
+`;
+
+            events.forEach(event => {
+                const date = new Date(event.date + ' ' + event.time);
+                const dtStart = date.toISOString().replace(/[-:]/g, '').split('.')[0];
+                const uid = `${dtStart}-${event.title.replace(/\s/g, '-')}@calendar2026`;
+                
+                ics += `BEGIN:VEVENT
+UID:${uid}
+DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z
+DTSTART:${dtStart}
+SUMMARY:${event.title}
+DESCRIPTION:${event.type}
+LOCATION:${event.venue}
+STATUS:CONFIRMED
+END:VEVENT
+`;
+            });
+
+            ics += 'END:VCALENDAR';
+            return ics;
+        }
+
+        function addSingleToCalendar(eventId) {
+            const checkbox = document.getElementById(eventId);
+            const eventCard = checkbox.closest('.event-card');
+            const title = eventCard.querySelector('.event-title').textContent;
+            
+            const event = allEvents.find(e => e.title === title);
+            if (event) {
+                const ics = createICS([event]);
+                downloadICSFile(ics, `${event.title.replace(/\s/g, '-')}.ics`);
+            }
+        }
+
+        function addAllToCalendar() {
+            const selectedEvents = [];
+            document.querySelectorAll('.event-card input[type="checkbox"]:checked').forEach(cb => {
+                const eventCard = cb.closest('.event-card');
+                const title = eventCard.querySelector('.event-title').textContent;
+                const event = allEvents.find(e => e.title === title);
+                if (event) selectedEvents.push(event);
+            });
+
+            if (selectedEvents.length === 0) {
+                alert('Please select at least one event!');
+                return;
+            }
+
+            const ics = createICS(selectedEvents);
+            downloadICSFile(ics, 'selected-events.ics');
+        }
+
+        function downloadICS() {
+            if (allEvents.length === 0) return;
+            const ics = createICS(allEvents);
+            downloadICSFile(ics, 'all-events-2026.ics');
+        }
+
+        function downloadICSFile(content, filename) {
+            const blob = new Blob([content], { type: 'text/calendar' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+
+        // Load events on page load
+        loadEvents();
+    </script>
+</body>
+</html>
