@@ -154,6 +154,12 @@
             border-color: #1e3c72;
         }
 
+        .filter-btn.dolphins.active {
+            background: #008E97;
+            border-color: #008E97;
+            color: white;
+        }
+
         .filter-btn.knicks.active {
             background: #FDB927;
             border-color: #FDB927;
@@ -224,6 +230,11 @@
         .event-card:hover {
             transform: translateX(5px);
             box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .event-card.dolphins {
+            border-left-color: #008E97;
+            background: linear-gradient(to right, rgba(0, 142, 151, 0.05) 0%, white 10%);
         }
 
         .event-card.knicks {
@@ -343,7 +354,8 @@
     <div class="container">
         <div class="header">
             <h1>🎭 2026 Events Calendar</h1>
-            <p>Kaseya Center & MSG Venues • Auto-Updated Every 2 Weeks</p>
+            <p>🔵 Dolphins • 🟡 Knicks • ⚪ Rangers • 🟢 Other Events</p>
+            <p style="margin-top: 5px; font-size: 0.9em;">Kaseya Center & MSG Venues • Auto-Updated Every 2 Weeks</p>
         </div>
 
         <div class="last-updated">
@@ -383,6 +395,7 @@
                 <div class="filter-group">
                     <span style="font-weight: 600;">Filter:</span>
                     <button class="filter-btn active" onclick="filterCategory('all')">All Events</button>
+                    <button class="filter-btn dolphins" onclick="filterCategory('dolphins')">🔵 Dolphins</button>
                     <button class="filter-btn knicks" onclick="filterCategory('knicks')">🟡 Knicks</button>
                     <button class="filter-btn rangers" onclick="filterCategory('rangers')">⚪ Rangers</button>
                     <button class="filter-btn other" onclick="filterCategory('other')">🟢 Other</button>
@@ -399,7 +412,7 @@
 
         <div class="footer">
             <p>Data from <strong>Kaseya Center</strong> & <strong>MSG Venues</strong> (Madison Square Garden, Radio City Music Hall, Beacon Theatre, Infosys Theater)</p>
-            <p style="margin-top: 10px; opacity: 0.8;">Auto-updated via GitHub Actions • No Dolphins events (they play at Hard Rock Stadium)</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Auto-updated via GitHub Actions • Dolphins play at Hard Rock Stadium (not included in these venues)</p>
         </div>
     </div>
 
