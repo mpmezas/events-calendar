@@ -1,306 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T11:54:23.978603",
+  "lastUpdated": "2026-02-12T12:01:53.534677",
   "events": [
-    {
-      "date": "2026-01-08",
-      "title": "Houston Rockets vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-09",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-10",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-11",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-13",
-      "title": "Houston Rockets vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-14",
-      "title": "New Orleans Pelicans vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-15",
-      "title": "Oklahoma City Thunder vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-16",
-      "title": "Orlando Magic vs Miami HEAT",
-      "time": "20:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-17",
-      "title": "Charlotte Hornets vs Miami HEAT",
-      "time": "20:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-18",
-      "title": "Charlotte Hornets vs Miami HEAT",
-      "time": "18:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-21",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-22",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-22",
-      "title": "Shane Gillis",
-      "time": "20:00",
-      "type": "Comedy",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-23",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-23",
-      "title": "Shane Gillis",
-      "time": "20:00",
-      "type": "Comedy",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-24",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-24",
-      "title": "Shane Gillis",
-      "time": "20:00",
-      "type": "Comedy",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-25",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-27",
-      "title": "New York Philharmonic",
-      "time": "20:00",
-      "type": "Classical Music",
-      "venue": "Radio City Music Hall",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-28",
-      "title": "Indiana Pacers vs Miami HEAT",
-      "time": "20:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-29",
-      "title": "Denver Nuggets vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-30",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-01-31",
-      "title": "Chicago Bulls vs Miami HEAT",
-      "time": "19:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-01",
-      "title": "Minnesota Timberwolves vs Miami HEAT",
-      "time": "18:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-03",
-      "title": "Atlanta Hawks vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
     {
       "date": "2026-02-04",
       "title": "New York Knicks vs Denver Nuggets",
@@ -310,8 +10,8 @@
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534430"
     },
     {
       "date": "2026-02-05",
@@ -321,9 +21,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534436"
     },
     {
       "date": "2026-02-07",
@@ -334,8 +34,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534131"
     },
     {
       "date": "2026-02-09",
@@ -346,32 +46,20 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-10",
-      "title": "New York Knicks vs Indiana Pacers",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "dateAdded": "2026-01-23T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534152"
     },
     {
       "date": "2026-02-11",
       "title": "Kaseya Center All-Access Tour",
       "time": "13:00",
-      "type": "Arena Tour",
+      "type": "Special Event",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534159"
     },
     {
       "date": "2026-02-11",
@@ -382,20 +70,20 @@
       "location": "New York, NY",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534442"
     },
     {
       "date": "2026-02-12",
       "title": "Kaseya Center All-Access Tour",
-      "time": "14:00",
-      "type": "Arena Tour",
+      "time": "13:00",
+      "type": "Special Event",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534165"
     },
     {
       "date": "2026-02-12",
@@ -406,140 +94,80 @@
       "location": "New York, NY",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534449"
     },
     {
       "date": "2026-02-13",
       "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
+      "time": "13:00",
+      "type": "Special Event",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534171"
     },
     {
       "date": "2026-02-13",
       "title": "Brandi Carlile",
-      "time": "19:30",
+      "time": "20:00",
       "type": "Concert",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534457"
     },
     {
       "date": "2026-02-14",
       "title": "Brandi Carlile",
-      "time": "19:30",
+      "time": "20:00",
       "type": "Concert",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534464"
     },
     {
-      "date": "2026-02-14",
-      "title": "Takin' Care of Biscuits Comedy Tour",
-      "time": "20:00",
-      "type": "Comedy",
-      "venue": "Beacon Theatre",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-14",
-      "title": "Arly Lariviere",
-      "time": "20:00",
-      "type": "Concert",
-      "venue": "Infosys Theater at MSG",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-15",
-      "title": "Dancing With The Stars: Live! - 2026 Tour",
-      "time": "14:00",
-      "type": "Show",
-      "venue": "Radio City Music Hall",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-15",
-      "title": "Dancing With The Stars: Live! - 2026 Tour",
-      "time": "20:00",
-      "type": "Show",
-      "venue": "Radio City Music Hall",
-      "location": "New York, NY",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-19",
-      "title": "Premio Lo Nuestro",
-      "time": "19:30",
-      "type": "Award Show",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-19",
-      "title": "New York Knicks vs Detroit Pistons",
+      "date": "2026-02-17",
+      "title": "New York Knicks vs Milwaukee Bucks",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534471"
     },
     {
-      "date": "2026-02-20",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
+      "date": "2026-02-19",
+      "title": "Premio Lo Nuestro presented by T-Mobile",
+      "time": "19:30",
+      "type": "Awards Show",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534177"
     },
     {
-      "date": "2026-02-20",
-      "title": "New York Rangers vs Tampa Bay Lightning",
+      "date": "2026-02-19",
+      "title": "New York Rangers vs Pittsburgh Penguins",
       "time": "19:00",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534478"
     },
     {
       "date": "2026-02-21",
@@ -550,68 +178,92 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534183"
     },
     {
-      "date": "2026-02-22",
-      "title": "New York Knicks vs Portland Trail Blazers",
-      "time": "13:00",
+      "date": "2026-02-21",
+      "title": "New York Knicks vs Boston Celtics",
+      "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534484"
     },
     {
-      "date": "2026-02-25",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-26",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "16:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-26",
-      "title": "New York Rangers vs Florida Panthers",
+      "date": "2026-02-23",
+      "title": "New York Rangers vs New York Islanders",
       "time": "19:00",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534490"
     },
     {
-      "date": "2026-02-27",
+      "date": "2026-02-25",
       "title": "Kaseya Center All-Access Tour",
-      "time": "17:00",
-      "type": "Arena Tour",
+      "time": "15:00",
+      "type": "Special Event",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534189"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "New York Knicks vs Philadelphia 76ers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534496"
+    },
+    {
+      "date": "2026-02-26",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534195"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534201"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "New York Rangers vs Tampa Bay Lightning",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534502"
     },
     {
       "date": "2026-02-28",
@@ -622,20 +274,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-02-28",
-      "title": "New York Knicks vs Houston Rockets",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534207"
     },
     {
       "date": "2026-03-01",
@@ -646,56 +286,44 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534213"
     },
     {
       "date": "2026-03-01",
-      "title": "New York Rangers vs Pittsburgh Penguins",
-      "time": "13:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-03",
-      "title": "Brooklyn Nets vs Miami HEAT",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-03",
-      "title": "New York Knicks vs San Antonio Spurs",
+      "title": "New York Knicks vs Miami Heat",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534508"
     },
     {
-      "date": "2026-03-04",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "16:00",
-      "type": "Arena Tour",
+      "date": "2026-03-03",
+      "title": "Brooklyn Nets vs Miami HEAT",
+      "time": "19:30",
+      "type": "NBA Regular Season",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534219"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "New York Rangers vs Washington Capitals",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534514"
     },
     {
       "date": "2026-03-05",
@@ -706,56 +334,56 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534234"
     },
     {
       "date": "2026-03-05",
-      "title": "New York Rangers vs New Jersey Devils",
-      "time": "19:00",
-      "type": "NHL Regular Season",
+      "title": "New York Knicks vs Los Angeles Lakers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534520"
     },
     {
       "date": "2026-03-07",
-      "title": "Silvestre Dangond and Juancho de la Espriella",
+      "title": "Silvestre Dangond",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534242"
     },
     {
       "date": "2026-03-07",
-      "title": "New York Knicks vs Phoenix Suns",
+      "title": "New York Knicks vs Golden State Warriors",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534526"
     },
     {
       "date": "2026-03-08",
       "title": "Detroit Pistons vs Miami HEAT",
-      "time": "18:00",
+      "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534248"
     },
     {
       "date": "2026-03-10",
@@ -766,32 +394,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-10",
-      "title": "New York Rangers vs Buffalo Sabres",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-11",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "16:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534253"
     },
     {
       "date": "2026-03-12",
@@ -802,8 +406,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534260"
     },
     {
       "date": "2026-03-13",
@@ -814,20 +418,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-13",
-      "title": "New York Knicks vs Golden State Warriors",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534266"
     },
     {
       "date": "2026-03-14",
@@ -838,8 +430,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534272"
     },
     {
       "date": "2026-03-15",
@@ -850,8 +442,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375335",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534550"
     },
     {
       "date": "2026-03-16",
@@ -862,8 +454,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375336",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534557"
     },
     {
       "date": "2026-03-17",
@@ -874,20 +466,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375337",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-18",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534564"
     },
     {
       "date": "2026-03-18",
@@ -898,8 +478,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375339",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534571"
     },
     {
       "date": "2026-03-19",
@@ -910,8 +490,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534278"
     },
     {
       "date": "2026-03-19",
@@ -922,20 +502,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375340",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-20",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534578"
     },
     {
       "date": "2026-03-20",
@@ -946,20 +514,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375345",
-      "isNew": false
-    },
-    {
-      "date": "2026-03-21",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "15:00",
-      "type": "Arena Tour",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534600"
     },
     {
       "date": "2026-03-21",
@@ -970,8 +526,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375346",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534608"
     },
     {
       "date": "2026-03-22",
@@ -982,8 +538,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375347",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534616"
     },
     {
       "date": "2026-03-23",
@@ -994,8 +550,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534284"
     },
     {
       "date": "2026-03-23",
@@ -1006,8 +562,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375348",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534622"
     },
     {
       "date": "2026-03-24",
@@ -1018,8 +574,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375349",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534631"
     },
     {
       "date": "2026-03-25",
@@ -1030,8 +586,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375350",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534637"
     },
     {
       "date": "2026-03-26",
@@ -1042,8 +598,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375351",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534643"
     },
     {
       "date": "2026-03-27",
@@ -1054,8 +610,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534291"
     },
     {
       "date": "2026-03-27",
@@ -1066,8 +622,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375352",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534649"
     },
     {
       "date": "2026-03-28",
@@ -1078,8 +634,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534296"
     },
     {
       "date": "2026-03-28",
@@ -1090,8 +646,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375353",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534655"
     },
     {
       "date": "2026-03-29",
@@ -1102,8 +658,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375354",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534661"
     },
     {
       "date": "2026-03-30",
@@ -1114,8 +670,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534302"
     },
     {
       "date": "2026-04-01",
@@ -1126,8 +682,8 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534308"
     },
     {
       "date": "2026-04-02",
@@ -1138,8 +694,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534314"
     },
     {
       "date": "2026-04-03",
@@ -1150,8 +706,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534320"
     },
     {
       "date": "2026-04-04",
@@ -1162,32 +718,56 @@
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534325"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Ricardo Arjona",
+      "time": "20:00",
+      "type": "Concert",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534331"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "Ricardo Arjona",
+      "time": "20:00",
+      "type": "Concert",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534337"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Ricardo Arjona",
+      "time": "20:00",
+      "type": "Concert",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534343"
     },
     {
       "date": "2026-04-11",
       "title": "UFC 327",
       "time": "19:00",
-      "type": "Mixed Martial Arts",
+      "type": "UFC Event",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-04-12",
-      "title": "Toronto Raptors vs Miami HEAT",
-      "time": "18:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "category": "othersports",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534349"
     },
     {
       "date": "2026-04-29",
@@ -1198,8 +778,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534355"
     },
     {
       "date": "2026-05-01",
@@ -1210,8 +790,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375311",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534532"
     },
     {
       "date": "2026-05-02",
@@ -1222,8 +802,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534361"
     },
     {
       "date": "2026-05-02",
@@ -1234,8 +814,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375331",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534538"
     },
     {
       "date": "2026-05-03",
@@ -1246,8 +826,8 @@
       "location": "Miami Gardens, FL",
       "category": "othersports",
       "color": "white",
-      "dateAdded": "2026-02-12T03:20:54.375333",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534544"
     },
     {
       "date": "2026-05-09",
@@ -1258,8 +838,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534367"
     },
     {
       "date": "2026-05-15",
@@ -1270,8 +850,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534373"
     },
     {
       "date": "2026-05-16",
@@ -1282,20 +862,20 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534378"
     },
     {
       "date": "2026-05-23",
-      "title": "Carlos Vives",
+      "title": "Camilo",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534384"
     },
     {
       "date": "2026-06-04",
@@ -1306,56 +886,32 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534390"
     },
     {
       "date": "2026-06-14",
-      "title": "Summer Walker",
+      "title": "Summer Walker with Monaleo and Odeal",
       "time": "19:30",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534396"
     },
     {
       "date": "2026-07-24",
       "title": "Louis Tomlinson",
-      "time": "19:30",
-      "type": "Concert",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-08-29",
-      "title": "Marco Antonio Sol\u00eds",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Camilo",
-      "time": "20:00",
-      "type": "Concert",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534401"
     },
     {
       "date": "2026-11-11",
@@ -1366,8 +922,8 @@
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
-      "dateAdded": "2026-02-12T03:07:51.648919",
-      "isNew": false
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:01:53.534423"
     }
   ]
 }
