@@ -227,7 +227,11 @@
             min-width: 250px;
             text-align: center;
         }
-        .calendar-container { padding: 30px; }
+        .calendar-container { 
+            padding: 30px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
         .calendar {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
@@ -236,6 +240,7 @@
             border: 1px solid #e0e0e0;
             border-radius: 8px;
             overflow: hidden;
+            min-width: 700px;
         }
         .calendar-header {
             background: #1e3c72;
@@ -347,6 +352,7 @@
             display: flex;
             gap: 10px;
             justify-content: flex-end;
+            flex-wrap: wrap;
         }
         .event-detail-card {
             padding: 15px;
@@ -393,20 +399,82 @@
             font-size: 0.9em;
         }
         .help-box strong { color: #92400e; }
+        
+        /* MOBILE SPECIFIC IMPROVEMENTS */
         @media (max-width: 968px) {
-            .calendar { font-size: 0.85em; }
-            .calendar-day { min-height: 100px; }
-            .calendar-event { font-size: 0.7em; }
+            body { padding: 10px; }
+            .container { border-radius: 10px; }
+            .header { padding: 30px 20px; }
+            .header h1 { font-size: 2em; }
+            .header p { font-size: 0.95em; }
+            .last-updated { padding: 12px 20px; }
+            .controls { padding: 20px; }
+            .category-downloads { padding: 15px; }
+            .button-group { gap: 10px; }
+            .btn { padding: 10px 16px; font-size: 0.9em; }
+            .calendar-container { padding: 15px; }
+            .calendar { min-width: 650px; }
+            .calendar-header { padding: 10px 8px; font-size: 0.85em; }
+            .calendar-day { min-height: 100px; padding: 6px; }
+            .day-number { font-size: 0.9em; }
+            .calendar-event { font-size: 0.7em; padding: 3px 5px; }
+            .list-view { padding: 20px; }
+            .month-header { font-size: 1.5em; }
         }
+
         @media (max-width: 768px) {
-            .header h1 { font-size: 1.8em; }
-            .current-month { font-size: 1.4em; min-width: 200px; }
-            .event-card { flex-direction: column; align-items: flex-start; }
+            .header h1 { font-size: 1.6em; }
+            .header p { font-size: 0.85em; }
+            .last-updated { padding: 10px 15px; flex-direction: column; align-items: flex-start; }
+            .stats { gap: 15px; font-size: 0.9em; }
+            .controls { padding: 15px; }
+            .view-toggle { width: 100%; }
+            .view-btn { flex: 1; justify-content: center; padding: 12px 10px; font-size: 0.9em; }
+            .category-downloads { padding: 12px; }
+            .category-downloads h3 { font-size: 0.9em; }
+            .category-btn { padding: 6px 12px; font-size: 0.8em; }
+            .button-group { gap: 8px; }
+            .btn { padding: 8px 12px; font-size: 0.85em; }
+            .filter-btn { padding: 6px 12px; font-size: 0.85em; }
+            .month-nav { padding: 15px 10px; gap: 10px; }
+            .month-nav button { padding: 8px 12px; font-size: 0.9em; }
+            .current-month { font-size: 1.3em; min-width: 150px; }
+            .calendar-container { padding: 10px; }
+            .calendar { min-width: 600px; }
+            .calendar-header { padding: 8px 4px; font-size: 0.75em; }
+            .calendar-day { min-height: 80px; padding: 4px; }
+            .day-number { font-size: 0.85em; margin-bottom: 3px; }
+            .calendar-event { font-size: 0.65em; padding: 2px 4px; }
+            .event-time { display: block; margin-bottom: 2px; }
+            .more-events { font-size: 0.65em; }
+            .event-card { flex-direction: column; align-items: flex-start; padding: 15px; }
+            .event-info { min-width: 100%; }
+            .event-title { font-size: 1.1em; }
+            .event-details { gap: 10px; font-size: 0.85em; }
             .event-actions { width: 100%; flex-wrap: wrap; }
-            .calendar { font-size: 0.75em; }
-            .calendar-day { min-height: 80px; padding: 5px; }
-            .calendar-header { padding: 10px 5px; font-size: 0.8em; }
-            .calendar-event { font-size: 0.65em; padding: 3px 4px; }
+            .add-to-cal-btn { font-size: 0.85em; }
+            .list-view { padding: 15px; }
+            .month-header { font-size: 1.3em; }
+            .modal-content { margin: 10px; }
+            .modal-header { padding: 15px 20px; }
+            .modal-title { font-size: 1.2em; }
+            .modal-body { padding: 20px; }
+            .modal-actions { padding: 15px 20px; }
+            .legend { padding: 15px 20px; gap: 15px; }
+            .legend-item { font-size: 0.85em; }
+            .help-box { font-size: 0.85em; padding: 12px; }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 { font-size: 1.4em; }
+            .header p { font-size: 0.8em; }
+            .calendar { min-width: 550px; }
+            .calendar-header { font-size: 0.7em; padding: 6px 2px; }
+            .calendar-day { min-height: 70px; padding: 3px; }
+            .day-number { font-size: 0.8em; }
+            .calendar-event { font-size: 0.6em; }
+            .current-month { font-size: 1.1em; min-width: 120px; }
+            .month-nav button { padding: 6px 10px; font-size: 0.85em; }
         }
     </style>
 </head>
@@ -548,7 +616,6 @@
                 document.getElementById('lastUpdated').textContent = `${formattedDate} at ${formattedTime}`;
                 document.getElementById('totalEvents').textContent = allEvents.length;
                 
-                // Update counts
                 const heatCount = allEvents.filter(e => e.category === 'heat').length;
                 const otherCount = allEvents.filter(e => e.category === 'other').length;
                 document.getElementById('heatCount').textContent = heatCount;
