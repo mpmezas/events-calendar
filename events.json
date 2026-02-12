@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T12:01:53.534677",
+  "lastUpdated": "2026-02-12T12:05:38.528097",
   "events": [
     {
       "date": "2026-02-04",
@@ -11,7 +11,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534430"
+      "dateAdded": "2026-02-12T12:05:38.528049"
     },
     {
       "date": "2026-02-05",
@@ -23,7 +23,7 @@
       "category": "rangers",
       "color": "blue",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534436"
+      "dateAdded": "2026-02-12T12:05:38.528050"
     },
     {
       "date": "2026-02-07",
@@ -35,7 +35,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534131"
+      "dateAdded": "2026-02-12T12:05:38.527986"
     },
     {
       "date": "2026-02-09",
@@ -47,19 +47,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534152"
-    },
-    {
-      "date": "2026-02-11",
-      "title": "Kaseya Center All-Access Tour",
-      "time": "13:00",
-      "type": "Special Event",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "other",
-      "color": "green",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534159"
+      "dateAdded": "2026-02-12T12:05:38.528002"
     },
     {
       "date": "2026-02-11",
@@ -71,7 +59,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534442"
+      "dateAdded": "2026-02-12T12:05:38.528051"
     },
     {
       "date": "2026-02-12",
@@ -83,7 +71,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534165"
+      "dateAdded": "2026-02-12T12:05:38.528004"
     },
     {
       "date": "2026-02-12",
@@ -95,7 +83,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534449"
+      "dateAdded": "2026-02-12T12:05:38.528052"
     },
     {
       "date": "2026-02-13",
@@ -107,7 +95,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534171"
+      "dateAdded": "2026-02-12T12:05:38.528005"
     },
     {
       "date": "2026-02-13",
@@ -119,7 +107,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534457"
+      "dateAdded": "2026-02-12T12:05:38.528053"
     },
     {
       "date": "2026-02-14",
@@ -131,7 +119,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534464"
+      "dateAdded": "2026-02-12T12:05:38.528054"
     },
     {
       "date": "2026-02-17",
@@ -143,7 +131,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534471"
+      "dateAdded": "2026-02-12T12:05:38.528055"
     },
     {
       "date": "2026-02-19",
@@ -155,7 +143,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534177"
+      "dateAdded": "2026-02-12T12:05:38.528006"
     },
     {
       "date": "2026-02-19",
@@ -167,7 +155,19 @@
       "category": "rangers",
       "color": "blue",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534478"
+      "dateAdded": "2026-02-12T12:05:38.528056"
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528007"
     },
     {
       "date": "2026-02-21",
@@ -179,7 +179,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534183"
+      "dateAdded": "2026-02-12T12:05:38.528008"
     },
     {
       "date": "2026-02-21",
@@ -191,7 +191,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534484"
+      "dateAdded": "2026-02-12T12:05:38.528057"
     },
     {
       "date": "2026-02-23",
@@ -203,7 +203,7 @@
       "category": "rangers",
       "color": "blue",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534490"
+      "dateAdded": "2026-02-12T12:05:38.528058"
     },
     {
       "date": "2026-02-25",
@@ -215,7 +215,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534189"
+      "dateAdded": "2026-02-12T12:05:38.528008"
     },
     {
       "date": "2026-02-25",
@@ -227,7 +227,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534496"
+      "dateAdded": "2026-02-12T12:05:38.528059"
     },
     {
       "date": "2026-02-26",
@@ -239,7 +239,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534195"
+      "dateAdded": "2026-02-12T12:05:38.528009"
     },
     {
       "date": "2026-02-27",
@@ -251,7 +251,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534201"
+      "dateAdded": "2026-02-12T12:05:38.528010"
     },
     {
       "date": "2026-02-27",
@@ -263,7 +263,7 @@
       "category": "rangers",
       "color": "blue",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534502"
+      "dateAdded": "2026-02-12T12:05:38.528060"
     },
     {
       "date": "2026-02-28",
@@ -275,7 +275,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534207"
+      "dateAdded": "2026-02-12T12:05:38.528011"
     },
     {
       "date": "2026-03-01",
@@ -287,7 +287,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534213"
+      "dateAdded": "2026-02-12T12:05:38.528011"
     },
     {
       "date": "2026-03-01",
@@ -299,7 +299,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534508"
+      "dateAdded": "2026-02-12T12:05:38.528061"
     },
     {
       "date": "2026-03-03",
@@ -311,7 +311,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534219"
+      "dateAdded": "2026-02-12T12:05:38.528012"
     },
     {
       "date": "2026-03-03",
@@ -323,7 +323,19 @@
       "category": "rangers",
       "color": "blue",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534514"
+      "dateAdded": "2026-02-12T12:05:38.528062"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "16:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528013"
     },
     {
       "date": "2026-03-05",
@@ -335,7 +347,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534234"
+      "dateAdded": "2026-02-12T12:05:38.528013"
     },
     {
       "date": "2026-03-05",
@@ -347,11 +359,11 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534520"
+      "dateAdded": "2026-02-12T12:05:38.528063"
     },
     {
       "date": "2026-03-07",
-      "title": "Silvestre Dangond",
+      "title": "Silvestre Dangond and Juancho de la Espriella",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
@@ -359,7 +371,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534242"
+      "dateAdded": "2026-02-12T12:05:38.528014"
     },
     {
       "date": "2026-03-07",
@@ -371,19 +383,19 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534526"
+      "dateAdded": "2026-02-12T12:05:38.528064"
     },
     {
       "date": "2026-03-08",
       "title": "Detroit Pistons vs Miami HEAT",
-      "time": "19:30",
+      "time": "18:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534248"
+      "dateAdded": "2026-02-12T12:05:38.528015"
     },
     {
       "date": "2026-03-10",
@@ -395,7 +407,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534253"
+      "dateAdded": "2026-02-12T12:05:38.528016"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "16:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528016"
     },
     {
       "date": "2026-03-12",
@@ -407,11 +431,11 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534260"
+      "dateAdded": "2026-02-12T12:05:38.528017"
     },
     {
       "date": "2026-03-13",
-      "title": "Lady Gaga",
+      "title": "Lady Gaga - The MAYHEM Ball",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
@@ -419,7 +443,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534266"
+      "dateAdded": "2026-02-12T12:05:38.528018"
     },
     {
       "date": "2026-03-14",
@@ -431,7 +455,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534272"
+      "dateAdded": "2026-02-12T12:05:38.528018"
     },
     {
       "date": "2026-03-15",
@@ -443,7 +467,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534550"
+      "dateAdded": "2026-02-12T12:05:38.528068"
     },
     {
       "date": "2026-03-16",
@@ -455,7 +479,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534557"
+      "dateAdded": "2026-02-12T12:05:38.528069"
     },
     {
       "date": "2026-03-17",
@@ -467,7 +491,19 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534564"
+      "dateAdded": "2026-02-12T12:05:38.528071"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528019"
     },
     {
       "date": "2026-03-18",
@@ -479,7 +515,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534571"
+      "dateAdded": "2026-02-12T12:05:38.528072"
     },
     {
       "date": "2026-03-19",
@@ -491,7 +527,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534278"
+      "dateAdded": "2026-02-12T12:05:38.528020"
     },
     {
       "date": "2026-03-19",
@@ -503,7 +539,19 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534578"
+      "dateAdded": "2026-02-12T12:05:38.528073"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528020"
     },
     {
       "date": "2026-03-20",
@@ -515,7 +563,19 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534600"
+      "dateAdded": "2026-02-12T12:05:38.528074"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Kaseya Center All-Access Tour",
+      "time": "15:00",
+      "type": "Special Event",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-12T12:05:38.528021"
     },
     {
       "date": "2026-03-21",
@@ -527,7 +587,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534608"
+      "dateAdded": "2026-02-12T12:05:38.528075"
     },
     {
       "date": "2026-03-22",
@@ -539,7 +599,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534616"
+      "dateAdded": "2026-02-12T12:05:38.528076"
     },
     {
       "date": "2026-03-23",
@@ -551,7 +611,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534284"
+      "dateAdded": "2026-02-12T12:05:38.528022"
     },
     {
       "date": "2026-03-23",
@@ -563,7 +623,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534622"
+      "dateAdded": "2026-02-12T12:05:38.528077"
     },
     {
       "date": "2026-03-24",
@@ -575,7 +635,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534631"
+      "dateAdded": "2026-02-12T12:05:38.528078"
     },
     {
       "date": "2026-03-25",
@@ -587,7 +647,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534637"
+      "dateAdded": "2026-02-12T12:05:38.528079"
     },
     {
       "date": "2026-03-26",
@@ -599,7 +659,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534643"
+      "dateAdded": "2026-02-12T12:05:38.528080"
     },
     {
       "date": "2026-03-27",
@@ -611,7 +671,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534291"
+      "dateAdded": "2026-02-12T12:05:38.528023"
     },
     {
       "date": "2026-03-27",
@@ -623,7 +683,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534649"
+      "dateAdded": "2026-02-12T12:05:38.528081"
     },
     {
       "date": "2026-03-28",
@@ -635,7 +695,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534296"
+      "dateAdded": "2026-02-12T12:05:38.528023"
     },
     {
       "date": "2026-03-28",
@@ -647,7 +707,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534655"
+      "dateAdded": "2026-02-12T12:05:38.528082"
     },
     {
       "date": "2026-03-29",
@@ -659,7 +719,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534661"
+      "dateAdded": "2026-02-12T12:05:38.528083"
     },
     {
       "date": "2026-03-30",
@@ -671,7 +731,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534302"
+      "dateAdded": "2026-02-12T12:05:38.528024"
     },
     {
       "date": "2026-04-01",
@@ -683,7 +743,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534308"
+      "dateAdded": "2026-02-12T12:05:38.528025"
     },
     {
       "date": "2026-04-02",
@@ -695,7 +755,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534314"
+      "dateAdded": "2026-02-12T12:05:38.528025"
     },
     {
       "date": "2026-04-03",
@@ -707,7 +767,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534320"
+      "dateAdded": "2026-02-12T12:05:38.528032"
     },
     {
       "date": "2026-04-04",
@@ -719,7 +779,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534325"
+      "dateAdded": "2026-02-12T12:05:38.528033"
     },
     {
       "date": "2026-04-05",
@@ -731,7 +791,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534331"
+      "dateAdded": "2026-02-12T12:05:38.528034"
     },
     {
       "date": "2026-04-06",
@@ -743,7 +803,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534337"
+      "dateAdded": "2026-02-12T12:05:38.528035"
     },
     {
       "date": "2026-04-07",
@@ -755,7 +815,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534343"
+      "dateAdded": "2026-02-12T12:05:38.528036"
     },
     {
       "date": "2026-04-11",
@@ -767,19 +827,19 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534349"
+      "dateAdded": "2026-02-12T12:05:38.528037"
     },
     {
       "date": "2026-04-29",
-      "title": "Florence + The Machine",
-      "time": "20:00",
+      "title": "Florence + The Machine - The Everybody Scream Tour",
+      "time": "19:30",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534355"
+      "dateAdded": "2026-02-12T12:05:38.528038"
     },
     {
       "date": "2026-05-01",
@@ -791,7 +851,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534532"
+      "dateAdded": "2026-02-12T12:05:38.528065"
     },
     {
       "date": "2026-05-02",
@@ -803,7 +863,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534361"
+      "dateAdded": "2026-02-12T12:05:38.528039"
     },
     {
       "date": "2026-05-02",
@@ -815,7 +875,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534538"
+      "dateAdded": "2026-02-12T12:05:38.528066"
     },
     {
       "date": "2026-05-03",
@@ -827,7 +887,7 @@
       "category": "othersports",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534544"
+      "dateAdded": "2026-02-12T12:05:38.528067"
     },
     {
       "date": "2026-05-09",
@@ -839,7 +899,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534367"
+      "dateAdded": "2026-02-12T12:05:38.528040"
     },
     {
       "date": "2026-05-15",
@@ -851,11 +911,11 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534373"
+      "dateAdded": "2026-02-12T12:05:38.528041"
     },
     {
       "date": "2026-05-16",
-      "title": "Laura Pausini",
+      "title": "Laura Pausini - Yo Canto World Tour",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
@@ -863,11 +923,11 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534378"
+      "dateAdded": "2026-02-12T12:05:38.528042"
     },
     {
       "date": "2026-05-23",
-      "title": "Camilo",
+      "title": "Carlos Vives",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
@@ -875,19 +935,19 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534384"
+      "dateAdded": "2026-02-12T12:05:38.528043"
     },
     {
       "date": "2026-06-04",
-      "title": "Rosal\u00eda",
-      "time": "20:00",
+      "title": "Rosal\u00eda - LUX Tour 2026",
+      "time": "20:30",
       "type": "Concert",
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534390"
+      "dateAdded": "2026-02-12T12:05:38.528044"
     },
     {
       "date": "2026-06-14",
@@ -899,7 +959,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534396"
+      "dateAdded": "2026-02-12T12:05:38.528045"
     },
     {
       "date": "2026-07-24",
@@ -911,11 +971,11 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534401"
+      "dateAdded": "2026-02-12T12:05:38.528047"
     },
     {
       "date": "2026-11-11",
-      "title": "Doja Cat",
+      "title": "Doja Cat - Tour Ma Vie World Tour",
       "time": "20:00",
       "type": "Concert",
       "venue": "Kaseya Center",
@@ -923,7 +983,7 @@
       "category": "other",
       "color": "green",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:01:53.534423"
+      "dateAdded": "2026-02-12T12:05:38.528048"
     }
   ]
 }
