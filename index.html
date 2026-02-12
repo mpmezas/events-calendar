@@ -125,7 +125,7 @@
         .category-btn.knicks { background: #FDB927; color: #000; }
         .category-btn.rangers { background: #0033A0; }
         .category-btn.other { background: #10B981; }
-        .category-btn.sports { background: #F3F4F6; color: #374151; border: 2px solid #9CA3AF; }
+        .category-btn.othersports { background: #6B7280; color: white; }
         .category-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
         .filters { display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
         .filter-group { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -214,9 +214,9 @@
             border-left-color: #10B981;
             background: linear-gradient(to right, rgba(16, 185, 129, 0.05) 0%, white 10%);
         }
-        .event-card.sports {
-            border-left-color: #9CA3AF;
-            background: linear-gradient(to right, rgba(156, 163, 175, 0.08) 0%, white 10%);
+        .event-card.othersports {
+            border-left-color: #6B7280;
+            background: linear-gradient(to right, rgba(107, 114, 128, 0.08) 0%, white 10%);
         }
         .event-info { flex: 1; min-width: 300px; }
         .event-title { 
@@ -358,9 +358,9 @@
             background: rgba(16, 185, 129, 0.1);
             color: #047857;
         }
-        .calendar-event.sports {
-            border-left-color: #9CA3AF;
-            background: rgba(156, 163, 175, 0.15);
+        .calendar-event.othersports {
+            border-left-color: #6B7280;
+            background: rgba(107, 114, 128, 0.15);
             color: #374151;
         }
         .event-time { font-weight: 600; margin-right: 3px; }
@@ -432,7 +432,7 @@
         .event-detail-card.knicks { border-left-color: #FDB927; background: rgba(253, 185, 39, 0.05); }
         .event-detail-card.rangers { border-left-color: #0033A0; background: rgba(0, 51, 160, 0.05); }
         .event-detail-card.other { border-left-color: #10B981; background: rgba(16, 185, 129, 0.05); }
-        .event-detail-card.sports { border-left-color: #9CA3AF; background: rgba(156, 163, 175, 0.08); }
+        .event-detail-card.othersports { border-left-color: #6B7280; background: rgba(107, 114, 128, 0.08); }
         .event-detail-main { flex: 1; }
         .event-detail-title { 
             font-size: 1.2em; 
@@ -461,7 +461,7 @@
         .legend-color.knicks { background: rgba(253, 185, 39, 0.2); border-color: #FDB927; }
         .legend-color.rangers { background: rgba(0, 51, 160, 0.2); border-color: #0033A0; }
         .legend-color.other { background: rgba(16, 185, 129, 0.2); border-color: #10B981; }
-        .legend-color.sports { background: rgba(156, 163, 175, 0.2); border-color: #9CA3AF; }
+        .legend-color.othersports { background: rgba(107, 114, 128, 0.3); border-color: #6B7280; }
         .no-events { text-align: center; padding: 60px 20px; color: #999; font-size: 1.2em; }
         .footer { background: #1e3c72; color: white; padding: 20px; text-align: center; }
         .help-box {
@@ -555,7 +555,7 @@
     <div class="container">
         <div class="header">
             <h1>📅 2026 Events Calendar</h1>
-            <p>🔵 Dolphins • 🔴 Miami Heat • 🟡 Knicks • ⚪ Rangers • ⚪ Sports • 🟢 Other Events</p>
+            <p>🔵 Dolphins • 🔴 Miami Heat • 🟡 Knicks • ⚪ Rangers • ⚪ Other Sports • 🟢 Other Events</p>
             <p style="margin-top: 5px; font-size: 0.9em;">Kaseya Center & MSG Venues & Hard Rock Stadium • Auto-Updated Every 2 Weeks</p>
         </div>
 
@@ -600,14 +600,14 @@
                 <button class="category-btn rangers" onclick="downloadCategory('rangers')">
                     ⚪ Rangers Calendar (6 events)
                 </button>
-                <button class="category-btn sports" onclick="downloadCategory('sports')">
-                    ⚪ Sports Calendar (<span id="sportsCount">18</span> events)
+                <button class="category-btn othersports" onclick="downloadCategory('othersports')">
+                    ⚪ Other Sports Calendar (<span id="othersportsCount">18</span> events)
                 </button>
                 <button class="category-btn other" onclick="downloadCategory('other')">
                     🟢 Other Events Calendar (<span id="otherCount">55</span> events)
                 </button>
                 <div class="help-box">
-                    <strong>💡 For color-coded Google Calendar:</strong> Download each category separately, import each as a different calendar in Google Calendar, then assign colors to each calendar (Red for Heat, Yellow for Knicks, Blue for Rangers, Gray/White for Sports, Green for Other, etc.). All events in that calendar will automatically have that color!
+                    <strong>💡 For color-coded Google Calendar:</strong> Download each category separately, import each as a different calendar in Google Calendar, then assign colors to each calendar (Red for Heat, Yellow for Knicks, Blue for Rangers, Grey for Other Sports, Green for Other, etc.). All events in that calendar will automatically have that color!
                 </div>
             </div>
 
@@ -626,7 +626,7 @@
                     <button class="filter-btn" onclick="filterCategory('heat')">🔴 Miami Heat</button>
                     <button class="filter-btn" onclick="filterCategory('knicks')">🟡 Knicks</button>
                     <button class="filter-btn" onclick="filterCategory('rangers')">⚪ Rangers</button>
-                    <button class="filter-btn" onclick="filterCategory('sports')">⚪ Sports</button>
+                    <button class="filter-btn" onclick="filterCategory('othersports')">⚪ Other Sports</button>
                     <button class="filter-btn" onclick="filterCategory('other')">🟢 Other</button>
                 </div>
             </div>
@@ -650,7 +650,7 @@
             <div class="legend-item"><div class="legend-color heat"></div><span>🔴 Miami Heat (<span id="legendHeatCount">27</span>)</span></div>
             <div class="legend-item"><div class="legend-color knicks"></div><span>🟡 Knicks (8)</span></div>
             <div class="legend-item"><div class="legend-color rangers"></div><span>⚪ Rangers (6)</span></div>
-            <div class="legend-item"><div class="legend-color sports"></div><span>⚪ Sports (<span id="legendSportsCount">18</span>)</span></div>
+            <div class="legend-item"><div class="legend-color othersports"></div><span>⚪ Other Sports (<span id="legendOthersportsCount">18</span>)</span></div>
             <div class="legend-item"><div class="legend-color other"></div><span>🟢 Other (<span id="legendOtherCount">55</span>)</span></div>
         </div>
 
@@ -679,7 +679,7 @@
         let allEvents = [];
         let currentFilter = 'all';
         let currentView = 'calendar';
-        let currentDate = new Date(2026, 0, 1);
+        let currentDate = new Date(2026, 1, 1); // February 2026 (month is 0-indexed)
         const monthNames = ["January", "February", "March", "April", "May", "June",
                            "July", "August", "September", "October", "November", "December"];
         const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -705,13 +705,13 @@
                 document.getElementById('newEventsCount').textContent = newEvents.length;
                 
                 const heatCount = allEvents.filter(e => e.category === 'heat').length;
-                const sportsCount = allEvents.filter(e => e.category === 'sports').length;
+                const othersportsCount = allEvents.filter(e => e.category === 'othersports').length;
                 const otherCount = allEvents.filter(e => e.category === 'other').length;
                 document.getElementById('heatCount').textContent = heatCount;
-                document.getElementById('sportsCount').textContent = sportsCount;
+                document.getElementById('othersportsCount').textContent = othersportsCount;
                 document.getElementById('otherCount').textContent = otherCount;
                 document.getElementById('legendHeatCount').textContent = heatCount;
-                document.getElementById('legendSportsCount').textContent = sportsCount;
+                document.getElementById('legendOthersportsCount').textContent = othersportsCount;
                 document.getElementById('legendOtherCount').textContent = otherCount;
                 
                 renderCalendar();
@@ -1019,7 +1019,7 @@
                 'heat': 'Miami-Heat',
                 'knicks': 'Knicks',
                 'rangers': 'Rangers',
-                'sports': 'Sports-Events',
+                'othersports': 'Other-Sports',
                 'other': 'Other-Events'
             };
             downloadICSFile(ics, `${categoryNames[category]}-2026.ics`);
