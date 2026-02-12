@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T01:43:54.757843",
+  "lastUpdated": "2026-02-12T03:23:51.047602",
   "events": [
     {
       "date": "2026-01-08",
@@ -9,7 +9,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-09",
@@ -19,7 +21,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-10",
@@ -29,7 +33,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-11",
@@ -39,7 +45,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-13",
@@ -49,7 +57,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-14",
@@ -59,7 +69,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-15",
@@ -69,7 +81,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-16",
@@ -79,7 +93,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-17",
@@ -89,7 +105,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-18",
@@ -99,7 +117,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-21",
@@ -109,7 +129,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-22",
@@ -119,7 +141,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-22",
@@ -129,7 +153,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-23",
@@ -139,7 +165,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-23",
@@ -149,7 +177,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-24",
@@ -159,7 +189,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-24",
@@ -169,7 +201,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-25",
@@ -179,7 +213,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-27",
@@ -189,7 +225,9 @@
       "venue": "Radio City Music Hall",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-28",
@@ -199,7 +237,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-29",
@@ -209,7 +249,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-30",
@@ -219,7 +261,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-01-31",
@@ -229,7 +273,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-01",
@@ -239,7 +285,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-03",
@@ -249,7 +297,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-04",
@@ -259,7 +309,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-05",
@@ -269,7 +321,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-07",
@@ -279,7 +333,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-09",
@@ -289,7 +345,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-10",
@@ -299,7 +357,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-01-23T03:07:51.648919",
+      "isNew": false
     },
     {
       "date": "2026-02-11",
@@ -309,7 +369,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-11",
@@ -319,7 +381,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-12",
@@ -329,7 +393,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-12",
@@ -339,7 +405,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-13",
@@ -349,7 +417,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-13",
@@ -359,7 +429,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-14",
@@ -369,7 +441,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-14",
@@ -379,7 +453,9 @@
       "venue": "Beacon Theatre",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-14",
@@ -389,7 +465,9 @@
       "venue": "Infosys Theater at MSG",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-15",
@@ -399,7 +477,9 @@
       "venue": "Radio City Music Hall",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-15",
@@ -409,7 +489,9 @@
       "venue": "Radio City Music Hall",
       "location": "New York, NY",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-19",
@@ -419,7 +501,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-19",
@@ -429,7 +513,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-20",
@@ -439,7 +525,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-20",
@@ -449,7 +537,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-21",
@@ -459,7 +549,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-22",
@@ -469,7 +561,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-25",
@@ -479,7 +573,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-26",
@@ -489,7 +585,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-26",
@@ -499,7 +597,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-27",
@@ -509,7 +609,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-28",
@@ -519,7 +621,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-02-28",
@@ -529,7 +633,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-01",
@@ -539,7 +645,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-01",
@@ -549,7 +657,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-03",
@@ -559,7 +669,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-03",
@@ -569,7 +681,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-04",
@@ -579,7 +693,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-05",
@@ -589,7 +705,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-05",
@@ -599,7 +717,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-07",
@@ -609,7 +729,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-07",
@@ -619,7 +741,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-08",
@@ -629,7 +753,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-10",
@@ -639,7 +765,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-10",
@@ -649,7 +777,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "white"
+      "color": "white",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-11",
@@ -659,7 +789,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-12",
@@ -669,7 +801,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-13",
@@ -679,7 +813,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-13",
@@ -689,7 +825,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
-      "color": "yellow"
+      "color": "yellow",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-03-14",
@@ -699,7 +837,45 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Miami Open presented by Ita\u00fa - Women's Qualifying (Day 1)",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375335",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Miami Open presented by Ita\u00fa - Men's & Women's Qualifying (Day 2)",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375336",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Miami Open - Stadium Session 02 (Evening)",
+      "time": "19:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375337",
+      "isNew": true
     },
     {
       "date": "2026-03-18",
@@ -709,7 +885,21 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Miami Open - Stadium Sessions 03 & 04",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375339",
+      "isNew": true
     },
     {
       "date": "2026-03-19",
@@ -719,7 +909,21 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Miami Open - Stadium Sessions 05 & 06",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375340",
+      "isNew": true
     },
     {
       "date": "2026-03-20",
@@ -729,7 +933,21 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Miami Open - Stadium Sessions 07 & 08",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375345",
+      "isNew": true
     },
     {
       "date": "2026-03-21",
@@ -739,7 +957,33 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Miami Open - Stadium Sessions 09 & 10",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375346",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-22",
+      "title": "Miami Open - Stadium Sessions 11 & 12",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375347",
+      "isNew": true
     },
     {
       "date": "2026-03-23",
@@ -749,7 +993,57 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-23",
+      "title": "Miami Open - Stadium Sessions 13 & 14",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375348",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Miami Open - Stadium Sessions 15 & 16",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375349",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Miami Open - Stadium Sessions 17 & 18 (Quarterfinals)",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375350",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Miami Open - Stadium Sessions 19 & 20 (Semifinals)",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375351",
+      "isNew": true
     },
     {
       "date": "2026-03-27",
@@ -759,7 +1053,21 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Miami Open - Stadium Session 21 (Women's Semifinals)",
+      "time": "11:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375352",
+      "isNew": true
     },
     {
       "date": "2026-03-28",
@@ -769,7 +1077,33 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Miami Open - Women's Singles Final",
+      "time": "13:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375353",
+      "isNew": true
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Miami Open - Men's Singles Final",
+      "time": "13:00",
+      "type": "Tennis Tournament",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375354",
+      "isNew": true
     },
     {
       "date": "2026-03-30",
@@ -779,7 +1113,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-01",
@@ -789,7 +1125,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-02",
@@ -799,7 +1137,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-03",
@@ -809,7 +1149,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-04",
@@ -819,7 +1161,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-11",
@@ -829,7 +1173,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-12",
@@ -839,7 +1185,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "heat",
-      "color": "red"
+      "color": "red",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-04-29",
@@ -849,7 +1197,21 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Formula 1 Miami Grand Prix - Friday (Practice & Sprint Qualifying)",
+      "time": "12:30",
+      "type": "Formula 1",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375311",
+      "isNew": true
     },
     {
       "date": "2026-05-02",
@@ -859,7 +1221,33 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Formula 1 Miami Grand Prix - Saturday (Sprint Race & Qualifying)",
+      "time": "12:30",
+      "type": "Formula 1",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375331",
+      "isNew": true
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Formula 1 Miami Grand Prix - Sunday (Grand Prix Race)",
+      "time": "15:30",
+      "type": "Formula 1",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "sports",
+      "color": "white",
+      "dateAdded": "2026-02-12T03:20:54.375333",
+      "isNew": true
     },
     {
       "date": "2026-05-09",
@@ -869,7 +1257,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-05-15",
@@ -879,7 +1269,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-05-16",
@@ -889,7 +1281,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-05-23",
@@ -899,7 +1293,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-06-04",
@@ -909,7 +1305,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-06-14",
@@ -919,7 +1317,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-07-24",
@@ -929,7 +1329,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-08-29",
@@ -939,7 +1341,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-10-09",
@@ -949,7 +1353,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     },
     {
       "date": "2026-11-11",
@@ -959,7 +1365,9 @@
       "venue": "Kaseya Center",
       "location": "Miami, FL",
       "category": "other",
-      "color": "green"
+      "color": "green",
+      "dateAdded": "2026-02-12T03:07:51.648919",
+      "isNew": true
     }
   ]
 }
