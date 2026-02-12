@@ -684,10 +684,34 @@
                            "July", "August", "September", "October", "November", "December"];
         const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-        // Helper function to parse date strings in local time (fixes timezone offset)
+        // Helper function to parse date strings - returns object with separate fields
+        // This completely avoids JavaScript Date timezone issues
         function parseEventDate(dateString) {
             const [year, month, day] = dateString.split('-').map(Number);
-            return new Date(year, month - 1, day);
+            return {
+                year: year,
+                month: month, // 1-12 (not 0-indexed!)
+                day: day,
+                // Create a Date object only when needed, in local time
+                toDate: function() {
+                    return new Date(year, month - 1, day, 12, 0, 0); // Noon to avoid timezone edge cases
+                },
+                // Get month as 0-indexed for JavaScript
+                getJSMonth: function() {
+                    return month - 1;
+                }
+            };
+        }
+
+        // Helper to compare if date string matches year/month
+        function dateMatchesMonth(dateString, year, month) {
+            const [y, m] = dateString.split('-').map(Number);
+            return y === year && m === (month + 1); // month is 0-indexed JS month
+        }
+
+        // Helper to get day from date string
+        function getDayFromDate(dateString) {
+            return parseInt(dateString.split('-')[2]);
         }
 
         async function loadEvents() {
@@ -756,14 +780,14 @@
 
             const eventsByMonth = {};
             filteredEvents.forEach(event => {
-                const date = parseEventDate(event.date);
-                const monthKey = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+                const parsed = parseEventDate(event.date);
+                const monthKey = parsed.toDate().toLocaleString('default', { month: 'long', year: 'numeric' });
                 if (!eventsByMonth[monthKey]) eventsByMonth[monthKey] = [];
                 eventsByMonth[monthKey].push(event);
             });
 
             const sortedMonths = Object.keys(eventsByMonth).sort((a, b) => {
-                return parseEventDate(eventsByMonth[a][0].date) - parseEventDate(eventsByMonth[b][0].date);
+                return parseEventDate(eventsByMonth[a][0].date).toDate() - parseEventDate(eventsByMonth[b][0].date).toDate();
             });
 
             let html = '';
@@ -771,7 +795,8 @@
             sortedMonths.forEach(month => {
                 html += `<div class="month-section"><h2 class="month-header">${month}</h2>`;
                 eventsByMonth[month].forEach(event => {
-                    const date = parseEventDate(event.date);
+                    const parsed = parseEventDate(event.date);
+                    const date = parsed.toDate();
                     const dayName = date.toLocaleDateString('default', { weekday: 'short' });
                     const dateStr = date.toLocaleDateString('default', { month: 'short', day: 'numeric' });
                     const eventId = `list-event-${eventIndex++}`;
@@ -823,8 +848,7 @@
             const daysInPrevMonth = new Date(year, month, 0).getDate();
             
             const monthEvents = allEvents.filter(event => {
-                const eventDate = parseEventDate(event.date);
-                const matchesMonth = eventDate.getMonth() === month && eventDate.getFullYear() === year;
+                const matchesMonth = dateMatchesMonth(event.date, year, month);
                 if (currentFilter === 'new') return matchesMonth && event.isNew === true;
                 const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
                 return matchesMonth && matchesCategory;
@@ -832,7 +856,7 @@
             
             const eventsByDay = {};
             monthEvents.forEach(event => {
-                const day = parseEventDate(event.date).getDate();
+                const day = getDayFromDate(event.date); // Extract day number directly from string
                 if (!eventsByDay[day]) eventsByDay[day] = [];
                 eventsByDay[day].push(event);
             });
@@ -892,9 +916,10 @@
         }
 
         function showDayEvents(year, month, day) {
-            const date = new Date(year, month, day);
-            // Format date as YYYY-MM-DD in local time (not UTC)
-            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+            // Create date string to match against event.date format (YYYY-MM-DD)
+            const monthStr = String(month + 1).padStart(2, '0'); // month is 0-indexed
+            const dayStr = String(day).padStart(2, '0');
+            const dateStr = `${year}-${monthStr}-${dayStr}`;
             
             const dayEvents = allEvents.filter(event => {
                 const matchesDate = event.date === dateStr;
@@ -906,7 +931,9 @@
             if (dayEvents.length === 0) return;
             dayEvents.sort((a, b) => a.time.localeCompare(b.time));
             
-            const dayName = date.toLocaleDateString('default', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+            // Create a Date object for display purposes only
+            const displayDate = new Date(year, month, day, 12, 0, 0);
+            const dayName = displayDate.toLocaleDateString('default', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
             document.getElementById('modalDate').textContent = dayName;
             
             let html = '';
