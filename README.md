@@ -6,16 +6,40 @@ A beautiful, auto-updating calendar website that displays events from Kaseya Cen
 
 ## ✨ Features
 
-- 📅 **114 Events** color-coded by category
-- 🔵 **Dolphins Games** (Blue) - Ready when events are added
+- 📅 **82 Events** verified from official sources and color-coded by category
+- 📡 **Calendar Subscription** - Subscribe once, auto-updates forever! (NEW)
+- 🔵 **Dolphins Games** (Teal) - Ready when NFL schedule is released
+- 🔴 **Miami Heat Games** (Red)
 - 🟡 **Knicks Games** (Yellow)
-- ⚪ **Rangers Games** (White)
-- 🟢 **Other Events** (Green) - concerts, shows, Miami HEAT, etc.
+- ⚪ **Rangers Games** (Blue)
+- ⚪ **Other Sports** (Grey) - F1, Tennis, UFC
+- 🟢 **Other Events** (Green) - concerts, shows, tours
 - 🔄 **Auto-updates every 2 weeks** via GitHub Actions
 - 📥 **Add to Calendar** - individual events or bulk import
 - 🔍 **Search & Filter** - find events quickly
 - 📱 **Mobile Friendly** - works on all devices
 - 💾 **Download ICS files** - for offline use
+
+## 📡 NEW: Calendar Subscription Feature
+
+Instead of manually downloading and re-importing, you can now **subscribe to auto-updating calendar feeds**!
+
+### How it Works:
+1. Click the **"📡 Subscribe"** button for any category
+2. Copy the subscription URL shown
+3. Add it to Google Calendar, Apple Calendar, or Outlook
+4. Your calendar updates automatically when new events are added!
+
+### Subscription URLs:
+Once deployed, your feeds will be available at:
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/heat-feed.ics` (Miami Heat)
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/knicks-feed.ics` (Knicks)
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/rangers-feed.ics` (Rangers)
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/othersports-feed.ics` (F1, Tennis, UFC)
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/other-feed.ics` (Concerts)
+- `https://YOUR-USERNAME.github.io/YOUR-REPO/all-events-feed.ics` (Everything)
+
+**📖 Full instructions:** See [SUBSCRIPTION_GUIDE.md](SUBSCRIPTION_GUIDE.md) for detailed setup instructions for all calendar apps.
 
 ## 🚀 Quick Setup (5 Minutes)
 
