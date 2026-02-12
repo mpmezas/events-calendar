@@ -684,6 +684,12 @@
                            "July", "August", "September", "October", "November", "December"];
         const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+        // Helper function to parse date strings in local time (fixes timezone offset)
+        function parseEventDate(dateString) {
+            const [year, month, day] = dateString.split('-').map(Number);
+            return new Date(year, month - 1, day);
+        }
+
         async function loadEvents() {
             try {
                 const response = await fetch('events.json');
@@ -750,14 +756,14 @@
 
             const eventsByMonth = {};
             filteredEvents.forEach(event => {
-                const date = new Date(event.date);
+                const date = parseEventDate(event.date);
                 const monthKey = date.toLocaleString('default', { month: 'long', year: 'numeric' });
                 if (!eventsByMonth[monthKey]) eventsByMonth[monthKey] = [];
                 eventsByMonth[monthKey].push(event);
             });
 
             const sortedMonths = Object.keys(eventsByMonth).sort((a, b) => {
-                return new Date(eventsByMonth[a][0].date) - new Date(eventsByMonth[b][0].date);
+                return parseEventDate(eventsByMonth[a][0].date) - parseEventDate(eventsByMonth[b][0].date);
             });
 
             let html = '';
@@ -765,7 +771,7 @@
             sortedMonths.forEach(month => {
                 html += `<div class="month-section"><h2 class="month-header">${month}</h2>`;
                 eventsByMonth[month].forEach(event => {
-                    const date = new Date(event.date);
+                    const date = parseEventDate(event.date);
                     const dayName = date.toLocaleDateString('default', { weekday: 'short' });
                     const dateStr = date.toLocaleDateString('default', { month: 'short', day: 'numeric' });
                     const eventId = `list-event-${eventIndex++}`;
@@ -817,7 +823,7 @@
             const daysInPrevMonth = new Date(year, month, 0).getDate();
             
             const monthEvents = allEvents.filter(event => {
-                const eventDate = new Date(event.date);
+                const eventDate = parseEventDate(event.date);
                 const matchesMonth = eventDate.getMonth() === month && eventDate.getFullYear() === year;
                 if (currentFilter === 'new') return matchesMonth && event.isNew === true;
                 const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
@@ -826,7 +832,7 @@
             
             const eventsByDay = {};
             monthEvents.forEach(event => {
-                const day = new Date(event.date).getDate();
+                const day = parseEventDate(event.date).getDate();
                 if (!eventsByDay[day]) eventsByDay[day] = [];
                 eventsByDay[day].push(event);
             });
@@ -887,7 +893,8 @@
 
         function showDayEvents(year, month, day) {
             const date = new Date(year, month, day);
-            const dateStr = date.toISOString().split('T')[0];
+            // Format date as YYYY-MM-DD in local time (not UTC)
+            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
             
             const dayEvents = allEvents.filter(event => {
                 const matchesDate = event.date === dateStr;
@@ -1036,7 +1043,10 @@ X-WR-TIMEZONE:America/New_York
 `;
 
             events.forEach(event => {
-                const date = new Date(event.date + ' ' + event.time);
+                // Parse date and time in local timezone to avoid offset issues
+                const [year, month, day] = event.date.split('-').map(Number);
+                const [hours, minutes] = event.time.split(':').map(Number);
+                const date = new Date(year, month - 1, day, hours, minutes);
                 const dtStart = date.toISOString().replace(/[-:]/g, '').split('.')[0];
                 const uid = `${dtStart}-${event.title.replace(/\s/g, '-')}@calendar2026`;
                 
