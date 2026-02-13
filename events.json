@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T03:20:38.323047",
+  "lastUpdated": "2026-02-13T17:13:06.486716",
   "events": [
     {
       "date": "2026-01-02",
@@ -11,7 +11,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322883"
+      "dateAdded": "2026-02-13T17:13:06.486634"
     },
     {
       "date": "2026-01-03",
@@ -23,7 +23,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322722"
+      "dateAdded": "2026-02-13T17:13:06.486599"
     },
     {
       "date": "2026-01-03",
@@ -35,7 +35,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322888"
+      "dateAdded": "2026-02-13T17:13:06.486634"
     },
     {
       "date": "2026-01-04",
@@ -47,7 +47,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322758"
+      "dateAdded": "2026-02-13T17:13:06.486616"
     },
     {
       "date": "2026-01-07",
@@ -59,7 +59,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322893"
+      "dateAdded": "2026-02-13T17:13:06.486635"
     },
     {
       "date": "2026-01-08",
@@ -71,19 +71,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763327"
-    },
-    {
-      "date": "2026-01-12",
-      "title": "New York Rangers vs Seattle Kraken",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763340"
+      "dateAdded": "2026-02-13T17:13:06.486660"
     },
     {
       "date": "2026-01-13",
@@ -95,7 +83,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322766"
+      "dateAdded": "2026-02-13T17:13:06.486618"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "New York Rangers vs Ottawa Senators",
+      "time": "19:30",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486662"
     },
     {
       "date": "2026-01-15",
@@ -107,7 +107,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322772"
+      "dateAdded": "2026-02-13T17:13:06.486619"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "New York Rangers vs Seattle Kraken",
+      "time": "19:30",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486663"
     },
     {
       "date": "2026-01-17",
@@ -119,7 +131,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322777"
+      "dateAdded": "2026-02-13T17:13:06.486619"
     },
     {
       "date": "2026-01-17",
@@ -131,7 +143,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322899"
+      "dateAdded": "2026-02-13T17:13:06.486636"
     },
     {
       "date": "2026-01-19",
@@ -143,7 +155,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322904"
+      "dateAdded": "2026-02-13T17:13:06.486636"
     },
     {
       "date": "2026-01-21",
@@ -155,7 +167,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322908"
+      "dateAdded": "2026-02-13T17:13:06.486637"
     },
     {
       "date": "2026-01-27",
@@ -167,7 +179,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322913"
+      "dateAdded": "2026-02-13T17:13:06.486638"
     },
     {
       "date": "2026-01-28",
@@ -179,19 +191,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322783"
+      "dateAdded": "2026-02-13T17:13:06.486620"
     },
     {
       "date": "2026-01-29",
       "title": "New York Rangers vs New York Islanders",
-      "time": "19:00",
+      "time": "19:30",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763342"
+      "dateAdded": "2026-02-13T17:13:06.486664"
     },
     {
       "date": "2026-01-30",
@@ -203,7 +215,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322919"
+      "dateAdded": "2026-02-13T17:13:06.486640"
     },
     {
       "date": "2026-01-31",
@@ -215,7 +227,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322788"
+      "dateAdded": "2026-02-13T17:13:06.486621"
     },
     {
       "date": "2026-02-01",
@@ -227,7 +239,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322794"
+      "dateAdded": "2026-02-13T17:13:06.486622"
     },
     {
       "date": "2026-02-01",
@@ -239,7 +251,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322924"
+      "dateAdded": "2026-02-13T17:13:06.486640"
     },
     {
       "date": "2026-02-03",
@@ -251,7 +263,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322799"
+      "dateAdded": "2026-02-13T17:13:06.486622"
     },
     {
       "date": "2026-02-04",
@@ -263,19 +275,19 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322929"
+      "dateAdded": "2026-02-13T17:13:06.486641"
     },
     {
       "date": "2026-02-05",
       "title": "New York Rangers vs Carolina Hurricanes",
-      "time": "19:00",
+      "time": "19:30",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763343"
+      "dateAdded": "2026-02-13T17:13:06.486665"
     },
     {
       "date": "2026-02-07",
@@ -299,7 +311,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322805"
+      "dateAdded": "2026-02-13T17:13:06.486623"
     },
     {
       "date": "2026-02-10",
@@ -311,7 +323,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322934"
+      "dateAdded": "2026-02-13T17:13:06.486642"
     },
     {
       "date": "2026-02-11",
@@ -407,7 +419,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322939"
+      "dateAdded": "2026-02-13T17:13:06.486643"
     },
     {
       "date": "2026-02-20",
@@ -431,7 +443,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322810"
+      "dateAdded": "2026-02-13T17:13:06.486624"
     },
     {
       "date": "2026-02-21",
@@ -443,7 +455,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322944"
+      "dateAdded": "2026-02-13T17:13:06.486645"
     },
     {
       "date": "2026-02-25",
@@ -479,7 +491,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763344"
+      "dateAdded": "2026-02-13T17:13:06.486666"
     },
     {
       "date": "2026-02-27",
@@ -495,18 +507,6 @@
     },
     {
       "date": "2026-02-28",
-      "title": "New York Rangers vs Pittsburgh Penguins",
-      "time": "12:30",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763345"
-    },
-    {
-      "date": "2026-02-28",
       "title": "Miami Heat vs Houston Rockets",
       "time": "15:00",
       "type": "NBA Regular Season",
@@ -515,7 +515,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322816"
+      "dateAdded": "2026-02-13T17:13:06.486624"
+    },
+    {
+      "date": "2026-02-28",
+      "title": "New York Rangers vs Pittsburgh Penguins",
+      "time": "12:30",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486667"
     },
     {
       "date": "2026-03-01",
@@ -539,7 +551,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322950"
+      "dateAdded": "2026-02-13T17:13:06.486646"
     },
     {
       "date": "2026-03-02",
@@ -551,7 +563,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763346"
+      "dateAdded": "2026-02-13T17:13:06.486668"
     },
     {
       "date": "2026-03-03",
@@ -563,7 +575,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322821"
+      "dateAdded": "2026-02-13T17:13:06.486625"
     },
     {
       "date": "2026-03-04",
@@ -587,19 +599,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322955"
-    },
-    {
-      "date": "2026-03-05",
-      "title": "New York Rangers vs Toronto Maple Leafs",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763347"
+      "dateAdded": "2026-02-13T17:13:06.486647"
     },
     {
       "date": "2026-03-05",
@@ -611,7 +611,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322827"
+      "dateAdded": "2026-02-13T17:13:06.486626"
+    },
+    {
+      "date": "2026-03-05",
+      "title": "New York Rangers vs Toronto Maple Leafs",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486669"
     },
     {
       "date": "2026-03-07",
@@ -635,19 +647,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322833"
-    },
-    {
-      "date": "2026-03-10",
-      "title": "New York Rangers vs Calgary Flames",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763347"
+      "dateAdded": "2026-02-13T17:13:06.486626"
     },
     {
       "date": "2026-03-10",
@@ -659,7 +659,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322838"
+      "dateAdded": "2026-02-13T17:13:06.486627"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "New York Rangers vs Calgary Flames",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486670"
     },
     {
       "date": "2026-03-11",
@@ -683,7 +695,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322843"
+      "dateAdded": "2026-02-13T17:13:06.486628"
     },
     {
       "date": "2026-03-13",
@@ -707,7 +719,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322848"
+      "dateAdded": "2026-02-13T17:13:06.486629"
     },
     {
       "date": "2026-03-15",
@@ -731,7 +743,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322959"
+      "dateAdded": "2026-02-13T17:13:06.486650"
     },
     {
       "date": "2026-03-16",
@@ -755,7 +767,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763348"
+      "dateAdded": "2026-02-13T17:13:06.486671"
     },
     {
       "date": "2026-03-17",
@@ -779,7 +791,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322967"
+      "dateAdded": "2026-02-13T17:13:06.486652"
     },
     {
       "date": "2026-03-18",
@@ -815,7 +827,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763349"
+      "dateAdded": "2026-02-13T17:13:06.486672"
     },
     {
       "date": "2026-03-19",
@@ -839,7 +851,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322853"
+      "dateAdded": "2026-02-13T17:13:06.486629"
     },
     {
       "date": "2026-03-20",
@@ -864,6 +876,18 @@
       "color": "white",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528074"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "New York Rangers vs New Jersey Devils",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486673"
     },
     {
       "date": "2026-03-21",
@@ -903,18 +927,6 @@
     },
     {
       "date": "2026-03-22",
-      "title": "New York Rangers vs Winnipeg Jets",
-      "time": "12:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763351"
-    },
-    {
-      "date": "2026-03-22",
       "title": "New York Knicks vs Washington Wizards",
       "time": "19:30",
       "type": "NBA Regular Season",
@@ -923,7 +935,19 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322972"
+      "dateAdded": "2026-02-13T17:13:06.486653"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "New York Rangers vs Winnipeg Jets",
+      "time": "12:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486674"
     },
     {
       "date": "2026-03-23",
@@ -939,18 +963,6 @@
     },
     {
       "date": "2026-03-23",
-      "title": "New York Rangers vs Ottawa Senators",
-      "time": "19:30",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763352"
-    },
-    {
-      "date": "2026-03-23",
       "title": "Miami Heat vs San Antonio Spurs",
       "time": "19:30",
       "type": "NBA Regular Season",
@@ -959,7 +971,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322858"
+      "dateAdded": "2026-02-13T17:13:06.486630"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "New York Rangers vs Ottawa Senators",
+      "time": "19:30",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486675"
     },
     {
       "date": "2026-03-24",
@@ -983,7 +1007,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322977"
+      "dateAdded": "2026-02-13T17:13:06.486654"
     },
     {
       "date": "2026-03-25",
@@ -1043,7 +1067,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763354"
+      "dateAdded": "2026-02-13T17:13:06.486676"
     },
     {
       "date": "2026-03-28",
@@ -1082,6 +1106,18 @@
       "dateAdded": "2026-02-12T12:05:38.528083"
     },
     {
+      "date": "2026-03-29",
+      "title": "New York Rangers vs Montreal Canadiens",
+      "time": "13:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486677"
+    },
+    {
       "date": "2026-03-30",
       "title": "Miami Heat vs Philadelphia 76ers",
       "time": "19:00",
@@ -1091,19 +1127,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322863"
-    },
-    {
-      "date": "2026-03-31",
-      "title": "New York Rangers vs New Jersey Devils",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763356"
+      "dateAdded": "2026-02-13T17:13:06.486631"
     },
     {
       "date": "2026-04-01",
@@ -1115,7 +1139,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322868"
+      "dateAdded": "2026-02-13T17:13:06.486631"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "New York Rangers vs Carolina Hurricanes",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486679"
     },
     {
       "date": "2026-04-02",
@@ -1128,18 +1164,6 @@
       "color": "green",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528025"
-    },
-    {
-      "date": "2026-04-02",
-      "title": "New York Rangers vs Montreal Canadiens",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763357"
     },
     {
       "date": "2026-04-03",
@@ -1163,11 +1187,11 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322983"
+      "dateAdded": "2026-02-13T17:13:06.486655"
     },
     {
-      "date": "2026-04-04",
-      "title": "New York Rangers vs Detroit Red Wings",
+      "date": "2026-04-03",
+      "title": "New York Rangers vs Pittsburgh Penguins",
       "time": "19:00",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
@@ -1175,7 +1199,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763358"
+      "dateAdded": "2026-02-13T17:13:06.486679"
     },
     {
       "date": "2026-04-04",
@@ -1187,7 +1211,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322873"
+      "dateAdded": "2026-02-13T17:13:06.486632"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "New York Rangers vs Detroit Red Wings",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486680"
     },
     {
       "date": "2026-04-05",
@@ -1211,7 +1247,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763358"
+      "dateAdded": "2026-02-13T17:13:06.486681"
     },
     {
       "date": "2026-04-06",
@@ -1238,6 +1274,18 @@
       "dateAdded": "2026-02-12T12:05:38.528036"
     },
     {
+      "date": "2026-04-07",
+      "title": "New York Rangers vs Tampa Bay Lightning",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486682"
+    },
+    {
       "date": "2026-04-08",
       "title": "New York Rangers vs Buffalo Sabres",
       "time": "19:00",
@@ -1247,7 +1295,7 @@
       "category": "rangers",
       "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-13T02:50:25.763359"
+      "dateAdded": "2026-02-13T17:13:06.486682"
     },
     {
       "date": "2026-04-09",
@@ -1259,7 +1307,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322988"
+      "dateAdded": "2026-02-13T17:13:06.486656"
     },
     {
       "date": "2026-04-10",
@@ -1271,7 +1319,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322992"
+      "dateAdded": "2026-02-13T17:13:06.486657"
     },
     {
       "date": "2026-04-11",
@@ -1295,7 +1343,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322878"
+      "dateAdded": "2026-02-13T17:13:06.486633"
     },
     {
       "date": "2026-04-12",
@@ -1307,7 +1355,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-13T03:20:38.322998"
+      "dateAdded": "2026-02-13T17:13:06.486658"
     },
     {
       "date": "2026-04-29",
@@ -1452,6 +1500,18 @@
       "color": "green",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528047"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "New York Knicks vs Minnesota Timberwolves",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T17:13:06.486659"
     },
     {
       "date": "2026-11-11",
