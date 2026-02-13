@@ -141,28 +141,8 @@
         }
         .filter-btn:hover { border-color: #1e3c72; }
         .filter-btn.active { background: #1e3c72; color: white; border-color: #1e3c72; }
-        .filter-btn.new-only { background: #fee2e2; border-color: #ef4444; color: #991b1b; }
-        .filter-btn.new-only.active { background: #ef4444; color: white; border-color: #ef4444; }
         .checkbox-container { display: flex; align-items: center; }
         .checkbox-container input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; }
-        
-        /* NEW BADGE */
-        .new-badge-pill {
-            display: inline-block;
-            background: #ef4444;
-            color: white;
-            font-size: 0.7em;
-            font-weight: 700;
-            padding: 2px 8px;
-            border-radius: 10px;
-            margin-left: 8px;
-            vertical-align: middle;
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
         
         .list-view { display: none; padding: 30px; }
         .list-view.active { display: block; }
@@ -190,10 +170,6 @@
             position: relative;
         }
         .event-card:hover { transform: translateX(5px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
-        .event-card.new-event { 
-            background: linear-gradient(to right, rgba(239, 68, 68, 0.05) 0%, white 10%);
-            border-left-width: 6px;
-        }
         .event-card.dolphins {
             border-left-color: #008E97;
             background: linear-gradient(to right, rgba(0, 142, 151, 0.05) 0%, white 10%);
@@ -923,15 +899,25 @@
 
             <div class="filters">
                 <div class="filter-group">
-                    <span style="font-weight: 600;">Filter:</span>
-                    <button class="filter-btn active" onclick="filterCategory('all')">All Events</button>
-                    <button class="filter-btn new-only" onclick="filterCategory('new')">🆕 New Only</button>
-                    <button class="filter-btn" onclick="filterCategory('dolphins')">🔵 Dolphins</button>
-                    <button class="filter-btn" onclick="filterCategory('heat')">🔴 Miami Heat</button>
-                    <button class="filter-btn" onclick="filterCategory('knicks')">🟡 Knicks</button>
-                    <button class="filter-btn" onclick="filterCategory('rangers')">⚪ Rangers</button>
-                    <button class="filter-btn" onclick="filterCategory('othersports')">⚪ Other Sports</button>
-                    <button class="filter-btn" onclick="filterCategory('other')">🟢 Other</button>
+                    <span style="font-weight: 600; margin-right: 10px;">Categories:</span>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="dolphins" checked onchange="updateCategoryFilter()"> 🔵 Dolphins
+                    </label>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="heat" checked onchange="updateCategoryFilter()"> 🔴 Miami Heat
+                    </label>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="knicks" checked onchange="updateCategoryFilter()"> 🟡 Knicks
+                    </label>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="rangers" checked onchange="updateCategoryFilter()"> ⚪ Rangers
+                    </label>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="othersports" checked onchange="updateCategoryFilter()"> ⚪ Other Sports
+                    </label>
+                    <label style="display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; cursor: pointer;">
+                        <input type="checkbox" class="category-checkbox" value="other" checked onchange="updateCategoryFilter()"> 🟢 Other
+                    </label>
                 </div>
             </div>
         </div>
@@ -981,7 +967,7 @@
 
     <script>
         let allEvents = [];
-        let currentFilter = 'all';
+        let selectedCategories = ['dolphins', 'heat', 'knicks', 'rangers', 'othersports', 'other'];
         let currentView = 'calendar';
         let currentDate = new Date(2026, 1, 1); // February 2026 (month is 0-indexed)
         const monthNames = ["January", "February", "March", "April", "May", "June",
@@ -1073,8 +1059,7 @@
         function renderList() {
             const container = document.getElementById('listView');
             let filteredEvents = allEvents.filter(event => {
-                if (currentFilter === 'new') return event.isNew === true;
-                return currentFilter === 'all' || event.category === currentFilter;
+                return selectedCategories.includes(event.category);
             });
 
             if (filteredEvents.length === 0) {
@@ -1104,13 +1089,11 @@
                     const dayName = date.toLocaleDateString('default', { weekday: 'short' });
                     const dateStr = date.toLocaleDateString('default', { month: 'short', day: 'numeric' });
                     const eventId = `list-event-${eventIndex++}`;
-                    const newBadge = event.isNew ? '<span class="new-badge-pill">NEW</span>' : '';
-                    const newClass = event.isNew ? 'new-event' : '';
                     
                     html += `
-                        <div class="event-card ${event.category} ${newClass}" data-event-id="${event.date}-${event.title.replace(/\s/g, '-')}">
+                        <div class="event-card ${event.category}" data-event-id="${event.date}-${event.title.replace(/\s/g, '-')}">
                             <div class="event-info">
-                                <div class="event-title">${event.title}${newBadge}</div>
+                                <div class="event-title">${event.title}</div>
                                 <div class="event-details">
                                     <div class="event-detail">📅 ${dayName}, ${dateStr}</div>
                                     <div class="event-detail">🕐 ${event.time}</div>
@@ -1153,8 +1136,7 @@
             
             const monthEvents = allEvents.filter(event => {
                 const matchesMonth = dateMatchesMonth(event.date, year, month);
-                if (currentFilter === 'new') return matchesMonth && event.isNew === true;
-                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
+                const matchesCategory = selectedCategories.includes(event.category);
                 return matchesMonth && matchesCategory;
             });
             
@@ -1186,8 +1168,7 @@
                 dayEvents.slice(0, 3).forEach(event => {
                     const time = formatTime(event.time);
                     const title = truncateText(event.title, 25);
-                    const newClass = event.isNew ? 'new-event' : '';
-                    html += `<div class="calendar-event ${event.category} ${newClass}">
+                    html += `<div class="calendar-event ${event.category}">
                         <span class="event-time">${time}</span>${title}
                     </div>`;
                 });
@@ -1227,8 +1208,7 @@
             
             const dayEvents = allEvents.filter(event => {
                 const matchesDate = event.date === dateStr;
-                if (currentFilter === 'new') return matchesDate && event.isNew === true;
-                const matchesCategory = currentFilter === 'all' || event.category === currentFilter;
+                const matchesCategory = selectedCategories.includes(event.category);
                 return matchesDate && matchesCategory;
             });
             
@@ -1244,14 +1224,13 @@
             let eventIndex = 0;
             dayEvents.forEach(event => {
                 const eventId = `modal-event-${eventIndex++}`;
-                const newBadge = event.isNew ? '<span class="new-badge-pill">NEW</span>' : '';
                 html += `
                     <div class="event-detail-card ${event.category}" data-event-id="${event.date}-${event.title.replace(/\s/g, '-')}">
                         <div class="checkbox-container">
                             <input type="checkbox" id="${eventId}" class="modal-checkbox" onchange="updateSelectedCount()">
                         </div>
                         <div class="event-detail-main">
-                            <div class="event-detail-title">${event.title}${newBadge}</div>
+                            <div class="event-detail-title">${event.title}</div>
                             <div class="event-detail-info">
                                 <div>🕐 ${event.time}</div>
                                 <div>📍 ${event.venue}</div>
@@ -1502,12 +1481,16 @@ END:VEVENT
             window.URL.revokeObjectURL(url);
         }
 
-        function filterCategory(category) {
-            currentFilter = category;
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+        function updateCategoryFilter() {
+            selectedCategories = Array.from(document.querySelectorAll('.category-checkbox:checked'))
+                .map(cb => cb.value);
             renderCalendar();
             renderList();
+        }
+
+        function filterCategory(category) {
+            // Deprecated - kept for compatibility
+            updateCategoryFilter();
         }
 
         function previousMonth() {
