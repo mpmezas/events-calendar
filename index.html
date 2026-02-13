@@ -640,6 +640,39 @@
                 flex: 1;
             }
         }
+        
+        /* Setup Guide Styles */
+        .setup-guide {
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .setup-guide summary {
+            transition: background 0.2s;
+        }
+        .setup-guide summary:hover {
+            background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+        }
+        .setup-guide[open] summary {
+            background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
+            color: white;
+        }
+        .setup-guide h3, .setup-guide h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .setup-guide h3:first-child {
+            margin-top: 0;
+        }
+        .setup-guide ol, .setup-guide ul {
+            line-height: 1.8;
+        }
+        .setup-guide li {
+            margin: 8px 0;
+        }
+        .setup-guide table {
+            font-size: 0.95em;
+        }
     </style>
 </head>
 <body>
@@ -696,7 +729,7 @@
                     <div class="feed-option">
                         <div class="feed-info">
                             <span class="feed-icon">🔴</span>
-                            <span class="feed-name">Miami Heat (<span id="heatCount">14</span> events)</span>
+                            <span class="feed-name">Miami Heat (<span id="heatCount">24</span> events)</span>
                         </div>
                         <div class="feed-actions">
                             <button class="btn-subscribe" onclick="subscribeToFeed('heat')">📡 Subscribe</button>
@@ -707,7 +740,7 @@
                     <div class="feed-option">
                         <div class="feed-info">
                             <span class="feed-icon">🟡</span>
-                            <span class="feed-name">New York Knicks (7 events)</span>
+                            <span class="feed-name">New York Knicks (23 events)</span>
                         </div>
                         <div class="feed-actions">
                             <button class="btn-subscribe" onclick="subscribeToFeed('knicks')">📡 Subscribe</button>
@@ -718,7 +751,7 @@
                     <div class="feed-option">
                         <div class="feed-info">
                             <span class="feed-icon">⚪</span>
-                            <span class="feed-name">New York Rangers (5 events)</span>
+                            <span class="feed-name">New York Rangers (19 events)</span>
                         </div>
                         <div class="feed-actions">
                             <button class="btn-subscribe" onclick="subscribeToFeed('rangers')">📡 Subscribe</button>
@@ -751,7 +784,7 @@
                     <div class="feed-option all-events">
                         <div class="feed-info">
                             <span class="feed-icon">🎫</span>
-                            <span class="feed-name"><strong>All Events (82 events)</strong></span>
+                            <span class="feed-name"><strong>All Events (122 events)</strong></span>
                         </div>
                         <div class="feed-actions">
                             <button class="btn-subscribe" onclick="subscribeToFeed('all-events')">📡 Subscribe</button>
@@ -769,6 +802,117 @@
                 <div class="help-box" style="margin-top: 10px;">
                     <strong>💡 For color-coded Google Calendar:</strong> Subscribe to each category as a separate calendar, then assign colors (Red for Heat, Yellow for Knicks, Blue for Rangers, Grey for Other Sports, Green for Concerts, etc.). All events will automatically match those colors!
                 </div>
+                
+                <details class="setup-guide" style="margin-top: 20px;">
+                    <summary style="cursor: pointer; font-size: 1.1em; font-weight: 600; padding: 15px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-radius: 8px; border: 2px solid #2196f3;">
+                        📱 How to Subscribe on Mobile (Google Calendar) - Click for Step-by-Step Guide
+                    </summary>
+                    <div style="padding: 20px; background: #f8f9fa; border-radius: 8px; margin-top: 10px; line-height: 1.8;">
+                        <h3 style="color: #1e3c72; margin-top: 0;">📱 Mobile Setup (iPhone & Android)</h3>
+                        
+                        <div style="background: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; border-radius: 6px; margin: 15px 0;">
+                            <strong>⚠️ Important:</strong> Google Calendar mobile app doesn't support adding subscriptions directly. 
+                            You must use a <strong>web browser</strong> (Chrome/Safari) on your phone.
+                        </div>
+                        
+                        <h4 style="color: #1e3c72;">🌐 Step 1: Open Browser</h4>
+                        <ol style="margin-left: 20px;">
+                            <li>Open <strong>Chrome</strong> or <strong>Safari</strong> on your phone</li>
+                            <li>Go to: <strong>calendar.google.com</strong></li>
+                            <li>Sign in to your Google account</li>
+                        </ol>
+                        
+                        <h4 style="color: #1e3c72;">📋 Step 2: Copy Subscription URL</h4>
+                        <ol style="margin-left: 20px;">
+                            <li>On this page, tap <strong>"📡 Subscribe"</strong> for Miami Heat (or any category)</li>
+                            <li>Tap <strong>"📋 Copy URL"</strong> in the popup</li>
+                            <li>The URL is now copied to your clipboard</li>
+                        </ol>
+                        
+                        <h4 style="color: #1e3c72;">➕ Step 3: Add to Google Calendar</h4>
+                        <ol style="margin-left: 20px;">
+                            <li>Go back to Google Calendar in your browser</li>
+                            <li>Find <strong>"Other calendars"</strong> on the left side</li>
+                            <li>Tap the <strong>+ button</strong> next to it</li>
+                            <li>Select <strong>"From URL"</strong></li>
+                            <li><strong>Paste</strong> the URL you copied</li>
+                            <li>Tap <strong>"Add calendar"</strong></li>
+                        </ol>
+                        
+                        <h4 style="color: #1e3c72;">🎨 Step 4: Assign Color</h4>
+                        <ol style="margin-left: 20px;">
+                            <li>Find <strong>"Miami Heat 2026"</strong> in your calendar list</li>
+                            <li>Tap the <strong>three dots (⋮)</strong> next to it</li>
+                            <li>Tap <strong>"Settings"</strong></li>
+                            <li>Scroll down and select a <strong>color</strong> (choose Red 🔴)</li>
+                            <li>Tap <strong>back</strong> to save</li>
+                        </ol>
+                        
+                        <h4 style="color: #1e3c72;">📱 Step 5: Open Calendar App</h4>
+                        <ol style="margin-left: 20px;">
+                            <li>Close the browser</li>
+                            <li>Open the <strong>Google Calendar app</strong></li>
+                            <li>Pull down to refresh</li>
+                            <li>Navigate to February 2026</li>
+                            <li><strong>Done!</strong> Heat games appear in red 🔴</li>
+                        </ol>
+                        
+                        <div style="background: #e3f2fd; padding: 15px; border-left: 4px solid #2196f3; border-radius: 6px; margin: 20px 0;">
+                            <strong>💡 Pro Tip:</strong> Repeat Steps 2-4 for each category:
+                            <ul style="margin: 10px 0 0 20px;">
+                                <li>🔴 <strong>Heat</strong> → Red</li>
+                                <li>🟡 <strong>Knicks</strong> → Yellow/Orange</li>
+                                <li>🔵 <strong>Rangers</strong> → Blue</li>
+                                <li>⚪ <strong>Other Sports</strong> → Grey</li>
+                                <li>🟢 <strong>Concerts</strong> → Green</li>
+                            </ul>
+                        </div>
+                        
+                        <h4 style="color: #1e3c72;">🎯 Recommended Colors in Google Calendar:</h4>
+                        <table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Category</th>
+                                <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Choose This Color</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">🔴 Miami Heat</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Tomato</strong> or <strong>Flamingo</strong></td>
+                            </tr>
+                            <tr style="background: #f9f9f9;">
+                                <td style="padding: 10px; border: 1px solid #ddd;">🟡 Knicks</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Banana</strong> or <strong>Tangerine</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">🔵 Rangers</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Peacock</strong> or <strong>Cobalt</strong></td>
+                            </tr>
+                            <tr style="background: #f9f9f9;">
+                                <td style="padding: 10px; border: 1px solid #ddd;">⚪ Other Sports</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Graphite</strong> or <strong>Sage</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">🟢 Concerts</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><strong>Basil</strong> or <strong>Eucalyptus</strong></td>
+                            </tr>
+                        </table>
+                        
+                        <div style="background: #d4edda; padding: 15px; border-left: 4px solid #28a745; border-radius: 6px; margin: 20px 0;">
+                            <strong>✅ Once Setup is Complete:</strong>
+                            <ul style="margin: 10px 0 0 20px;">
+                                <li>Events update <strong>automatically</strong> when new games are added</li>
+                                <li>Calendar syncs across <strong>all your devices</strong></li>
+                                <li>Toggle calendars on/off as needed</li>
+                                <li><strong>Never need to re-import!</strong></li>
+                            </ul>
+                        </div>
+                        
+                        <p style="text-align: center; margin: 20px 0;">
+                            <a href="MOBILE_SUBSCRIPTION_GUIDE.md" target="_blank" style="display: inline-block; padding: 12px 24px; background: #1e3c72; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">
+                                📖 View Full Mobile Guide
+                            </a>
+                        </p>
+                    </div>
+                </details>
             </div>
 
             <div class="button-group">
@@ -807,9 +951,9 @@
 
         <div class="legend">
             <div class="legend-item"><div class="legend-color dolphins"></div><span>🔵 Dolphins (0)</span></div>
-            <div class="legend-item"><div class="legend-color heat"></div><span>🔴 Miami Heat (<span id="legendHeatCount">14</span>)</span></div>
-            <div class="legend-item"><div class="legend-color knicks"></div><span>🟡 Knicks (7)</span></div>
-            <div class="legend-item"><div class="legend-color rangers"></div><span>⚪ Rangers (5)</span></div>
+            <div class="legend-item"><div class="legend-color heat"></div><span>🔴 Miami Heat (<span id="legendHeatCount">24</span>)</span></div>
+            <div class="legend-item"><div class="legend-color knicks"></div><span>🟡 Knicks (23)</span></div>
+            <div class="legend-item"><div class="legend-color rangers"></div><span>⚪ Rangers (19)</span></div>
             <div class="legend-item"><div class="legend-color othersports"></div><span>⚪ Other Sports (<span id="legendOthersportsCount">19</span>)</span></div>
             <div class="legend-item"><div class="legend-color other"></div><span>🟢 Other (<span id="legendOtherCount">37</span>)</span></div>
         </div>

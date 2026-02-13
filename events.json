@@ -1,6 +1,258 @@
 {
-  "lastUpdated": "2026-02-12T12:05:38.528097",
+  "lastUpdated": "2026-02-13T03:20:38.323047",
   "events": [
+    {
+      "date": "2026-01-02",
+      "title": "New York Knicks vs Atlanta Hawks",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322883"
+    },
+    {
+      "date": "2026-01-03",
+      "title": "Miami Heat vs Minnesota Timberwolves",
+      "time": "17:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322722"
+    },
+    {
+      "date": "2026-01-03",
+      "title": "New York Knicks vs Philadelphia 76ers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322888"
+    },
+    {
+      "date": "2026-01-04",
+      "title": "Miami Heat vs Portland Trail Blazers",
+      "time": "18:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322758"
+    },
+    {
+      "date": "2026-01-07",
+      "title": "New York Knicks vs LA Clippers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322893"
+    },
+    {
+      "date": "2026-01-08",
+      "title": "New York Rangers vs Buffalo Sabres",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763327"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "New York Rangers vs Seattle Kraken",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763340"
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Miami Heat vs Phoenix Suns",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322766"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "Miami Heat vs Boston Celtics",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322772"
+    },
+    {
+      "date": "2026-01-17",
+      "title": "Miami Heat vs Orlando Magic",
+      "time": "20:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322777"
+    },
+    {
+      "date": "2026-01-17",
+      "title": "New York Knicks vs Phoenix Suns",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322899"
+    },
+    {
+      "date": "2026-01-19",
+      "title": "New York Knicks vs Dallas Mavericks",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322904"
+    },
+    {
+      "date": "2026-01-21",
+      "title": "New York Knicks vs Brooklyn Nets",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322908"
+    },
+    {
+      "date": "2026-01-27",
+      "title": "New York Knicks vs Sacramento Kings",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322913"
+    },
+    {
+      "date": "2026-01-28",
+      "title": "Miami Heat vs Oklahoma City Thunder",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322783"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "New York Rangers vs New York Islanders",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763342"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "New York Knicks vs Portland Trail Blazers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322919"
+    },
+    {
+      "date": "2026-01-31",
+      "title": "Miami Heat vs Chicago Bulls",
+      "time": "20:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322788"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "Miami Heat vs Chicago Bulls",
+      "time": "18:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322794"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "New York Knicks vs Los Angeles Lakers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322924"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Miami Heat vs Cleveland Cavaliers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322799"
+    },
     {
       "date": "2026-02-04",
       "title": "New York Knicks vs Denver Nuggets",
@@ -11,7 +263,7 @@
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528049"
+      "dateAdded": "2026-02-13T03:20:38.322929"
     },
     {
       "date": "2026-02-05",
@@ -21,9 +273,9 @@
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "blue",
+      "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528050"
+      "dateAdded": "2026-02-13T02:50:25.763343"
     },
     {
       "date": "2026-02-07",
@@ -39,7 +291,7 @@
     },
     {
       "date": "2026-02-09",
-      "title": "Utah Jazz vs Miami HEAT",
+      "title": "Miami Heat vs Utah Jazz",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -47,7 +299,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528002"
+      "dateAdded": "2026-02-13T03:20:38.322805"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "New York Knicks vs Indiana Pacers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322934"
     },
     {
       "date": "2026-02-11",
@@ -122,18 +386,6 @@
       "dateAdded": "2026-02-12T12:05:38.528054"
     },
     {
-      "date": "2026-02-17",
-      "title": "New York Knicks vs Milwaukee Bucks",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528055"
-    },
-    {
       "date": "2026-02-19",
       "title": "Premio Lo Nuestro presented by T-Mobile",
       "time": "19:30",
@@ -147,15 +399,15 @@
     },
     {
       "date": "2026-02-19",
-      "title": "New York Rangers vs Pittsburgh Penguins",
-      "time": "19:00",
-      "type": "NHL Regular Season",
+      "title": "New York Knicks vs Detroit Pistons",
+      "time": "19:30",
+      "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
-      "category": "rangers",
-      "color": "blue",
+      "category": "knicks",
+      "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528056"
+      "dateAdded": "2026-02-13T03:20:38.322939"
     },
     {
       "date": "2026-02-20",
@@ -171,7 +423,7 @@
     },
     {
       "date": "2026-02-21",
-      "title": "Memphis Grizzlies vs Miami HEAT",
+      "title": "Miami Heat vs Memphis Grizzlies",
       "time": "20:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -179,31 +431,19 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528008"
+      "dateAdded": "2026-02-13T03:20:38.322810"
     },
     {
       "date": "2026-02-21",
-      "title": "New York Knicks vs Boston Celtics",
-      "time": "19:30",
+      "title": "New York Knicks vs Houston Rockets",
+      "time": "20:30",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528057"
-    },
-    {
-      "date": "2026-02-23",
-      "title": "New York Rangers vs New York Islanders",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "blue",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528058"
+      "dateAdded": "2026-02-13T03:20:38.322944"
     },
     {
       "date": "2026-02-25",
@@ -216,18 +456,6 @@
       "color": "green",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528008"
-    },
-    {
-      "date": "2026-02-25",
-      "title": "New York Knicks vs Philadelphia 76ers",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528059"
     },
     {
       "date": "2026-02-26",
@@ -242,6 +470,18 @@
       "dateAdded": "2026-02-12T12:05:38.528009"
     },
     {
+      "date": "2026-02-26",
+      "title": "New York Rangers vs Philadelphia Flyers",
+      "time": "20:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763344"
+    },
+    {
       "date": "2026-02-27",
       "title": "Kaseya Center All-Access Tour",
       "time": "15:00",
@@ -254,20 +494,20 @@
       "dateAdded": "2026-02-12T12:05:38.528010"
     },
     {
-      "date": "2026-02-27",
-      "title": "New York Rangers vs Tampa Bay Lightning",
-      "time": "19:00",
+      "date": "2026-02-28",
+      "title": "New York Rangers vs Pittsburgh Penguins",
+      "time": "12:30",
       "type": "NHL Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "rangers",
-      "color": "blue",
+      "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528060"
+      "dateAdded": "2026-02-13T02:50:25.763345"
     },
     {
       "date": "2026-02-28",
-      "title": "Houston Rockets vs Miami HEAT",
+      "title": "Miami Heat vs Houston Rockets",
       "time": "15:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -275,7 +515,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528011"
+      "dateAdded": "2026-02-13T03:20:38.322816"
     },
     {
       "date": "2026-03-01",
@@ -291,19 +531,31 @@
     },
     {
       "date": "2026-03-01",
-      "title": "New York Knicks vs Miami Heat",
-      "time": "19:30",
+      "title": "New York Knicks vs San Antonio Spurs",
+      "time": "13:00",
       "type": "NBA Regular Season",
       "venue": "Madison Square Garden",
       "location": "New York, NY",
       "category": "knicks",
       "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528061"
+      "dateAdded": "2026-02-13T03:20:38.322950"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "New York Rangers vs Columbus Blue Jackets",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763346"
     },
     {
       "date": "2026-03-03",
-      "title": "Brooklyn Nets vs Miami HEAT",
+      "title": "Miami Heat vs Brooklyn Nets",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -311,19 +563,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528012"
-    },
-    {
-      "date": "2026-03-03",
-      "title": "New York Rangers vs Washington Capitals",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "blue",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528062"
+      "dateAdded": "2026-02-13T03:20:38.322821"
     },
     {
       "date": "2026-03-04",
@@ -338,8 +578,32 @@
       "dateAdded": "2026-02-12T12:05:38.528013"
     },
     {
+      "date": "2026-03-04",
+      "title": "New York Knicks vs Oklahoma City Thunder",
+      "time": "19:00",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322955"
+    },
+    {
       "date": "2026-03-05",
-      "title": "Brooklyn Nets vs Miami HEAT",
+      "title": "New York Rangers vs Toronto Maple Leafs",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763347"
+    },
+    {
+      "date": "2026-03-05",
+      "title": "Miami Heat vs Brooklyn Nets",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -347,19 +611,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528013"
-    },
-    {
-      "date": "2026-03-05",
-      "title": "New York Knicks vs Los Angeles Lakers",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528063"
+      "dateAdded": "2026-02-13T03:20:38.322827"
     },
     {
       "date": "2026-03-07",
@@ -374,20 +626,8 @@
       "dateAdded": "2026-02-12T12:05:38.528014"
     },
     {
-      "date": "2026-03-07",
-      "title": "New York Knicks vs Golden State Warriors",
-      "time": "19:30",
-      "type": "NBA Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "knicks",
-      "color": "yellow",
-      "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528064"
-    },
-    {
       "date": "2026-03-08",
-      "title": "Detroit Pistons vs Miami HEAT",
+      "title": "Miami Heat vs Detroit Pistons",
       "time": "18:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -395,11 +635,23 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528015"
+      "dateAdded": "2026-02-13T03:20:38.322833"
     },
     {
       "date": "2026-03-10",
-      "title": "Washington Wizards vs Miami HEAT",
+      "title": "New York Rangers vs Calgary Flames",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763347"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Miami Heat vs Washington Wizards",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -407,7 +659,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528016"
+      "dateAdded": "2026-02-13T03:20:38.322838"
     },
     {
       "date": "2026-03-11",
@@ -423,7 +675,7 @@
     },
     {
       "date": "2026-03-12",
-      "title": "Milwaukee Bucks vs Miami HEAT",
+      "title": "Miami Heat vs Milwaukee Bucks",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -431,7 +683,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528017"
+      "dateAdded": "2026-02-13T03:20:38.322843"
     },
     {
       "date": "2026-03-13",
@@ -447,7 +699,7 @@
     },
     {
       "date": "2026-03-14",
-      "title": "Orlando Magic vs Miami HEAT",
+      "title": "Miami Heat vs Orlando Magic",
       "time": "20:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -455,7 +707,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528018"
+      "dateAdded": "2026-02-13T03:20:38.322848"
     },
     {
       "date": "2026-03-15",
@@ -470,6 +722,18 @@
       "dateAdded": "2026-02-12T12:05:38.528068"
     },
     {
+      "date": "2026-03-15",
+      "title": "New York Knicks vs Golden State Warriors",
+      "time": "20:00",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322959"
+    },
+    {
       "date": "2026-03-16",
       "title": "Miami Open presented by Ita\u00fa - Men's & Women's Qualifying (Day 2)",
       "time": "11:00",
@@ -482,6 +746,18 @@
       "dateAdded": "2026-02-12T12:05:38.528069"
     },
     {
+      "date": "2026-03-16",
+      "title": "New York Rangers vs Los Angeles Kings",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763348"
+    },
+    {
       "date": "2026-03-17",
       "title": "Miami Open - Stadium Session 02 (Evening)",
       "time": "19:00",
@@ -492,6 +768,18 @@
       "color": "white",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528071"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "New York Knicks vs Indiana Pacers",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322967"
     },
     {
       "date": "2026-03-18",
@@ -518,16 +806,16 @@
       "dateAdded": "2026-02-12T12:05:38.528072"
     },
     {
-      "date": "2026-03-19",
-      "title": "Los Angeles Lakers vs Miami HEAT",
-      "time": "20:00",
-      "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
+      "date": "2026-03-18",
+      "title": "New York Rangers vs New Jersey Devils",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528020"
+      "dateAdded": "2026-02-13T02:50:25.763349"
     },
     {
       "date": "2026-03-19",
@@ -540,6 +828,18 @@
       "color": "white",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528073"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Miami Heat vs Los Angeles Lakers",
+      "time": "20:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322853"
     },
     {
       "date": "2026-03-20",
@@ -602,16 +902,28 @@
       "dateAdded": "2026-02-12T12:05:38.528076"
     },
     {
-      "date": "2026-03-23",
-      "title": "San Antonio Spurs vs Miami HEAT",
+      "date": "2026-03-22",
+      "title": "New York Rangers vs Winnipeg Jets",
+      "time": "12:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763351"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "New York Knicks vs Washington Wizards",
       "time": "19:30",
       "type": "NBA Regular Season",
-      "venue": "Kaseya Center",
-      "location": "Miami, FL",
-      "category": "heat",
-      "color": "red",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528022"
+      "dateAdded": "2026-02-13T03:20:38.322972"
     },
     {
       "date": "2026-03-23",
@@ -626,6 +938,30 @@
       "dateAdded": "2026-02-12T12:05:38.528077"
     },
     {
+      "date": "2026-03-23",
+      "title": "New York Rangers vs Ottawa Senators",
+      "time": "19:30",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763352"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "Miami Heat vs San Antonio Spurs",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322858"
+    },
+    {
       "date": "2026-03-24",
       "title": "Miami Open - Stadium Sessions 15 & 16",
       "time": "11:00",
@@ -636,6 +972,18 @@
       "color": "white",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528078"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "New York Knicks vs New Orleans Pelicans",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322977"
     },
     {
       "date": "2026-03-25",
@@ -686,6 +1034,18 @@
       "dateAdded": "2026-02-12T12:05:38.528081"
     },
     {
+      "date": "2026-03-27",
+      "title": "New York Rangers vs Chicago Blackhawks",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763354"
+    },
+    {
       "date": "2026-03-28",
       "title": "MAN\u00c1",
       "time": "20:00",
@@ -723,7 +1083,7 @@
     },
     {
       "date": "2026-03-30",
-      "title": "Philadelphia 76ers vs Miami HEAT",
+      "title": "Miami Heat vs Philadelphia 76ers",
       "time": "19:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -731,11 +1091,23 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528024"
+      "dateAdded": "2026-02-13T03:20:38.322863"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "New York Rangers vs New Jersey Devils",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763356"
     },
     {
       "date": "2026-04-01",
-      "title": "Boston Celtics vs Miami HEAT",
+      "title": "Miami Heat vs Boston Celtics",
       "time": "19:30",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -743,7 +1115,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528025"
+      "dateAdded": "2026-02-13T03:20:38.322868"
     },
     {
       "date": "2026-04-02",
@@ -758,6 +1130,18 @@
       "dateAdded": "2026-02-12T12:05:38.528025"
     },
     {
+      "date": "2026-04-02",
+      "title": "New York Rangers vs Montreal Canadiens",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763357"
+    },
+    {
       "date": "2026-04-03",
       "title": "Ricardo Arjona",
       "time": "20:00",
@@ -770,8 +1154,32 @@
       "dateAdded": "2026-02-12T12:05:38.528032"
     },
     {
+      "date": "2026-04-03",
+      "title": "New York Knicks vs Chicago Bulls",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322983"
+    },
+    {
       "date": "2026-04-04",
-      "title": "Washington Wizards vs Miami HEAT",
+      "title": "New York Rangers vs Detroit Red Wings",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763358"
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Miami Heat vs Washington Wizards",
       "time": "15:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",
@@ -779,7 +1187,7 @@
       "category": "heat",
       "color": "red",
       "isNew": false,
-      "dateAdded": "2026-02-12T12:05:38.528033"
+      "dateAdded": "2026-02-13T03:20:38.322873"
     },
     {
       "date": "2026-04-05",
@@ -792,6 +1200,18 @@
       "color": "green",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528034"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "New York Rangers vs Washington Capitals",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763358"
     },
     {
       "date": "2026-04-06",
@@ -818,6 +1238,42 @@
       "dateAdded": "2026-02-12T12:05:38.528036"
     },
     {
+      "date": "2026-04-08",
+      "title": "New York Rangers vs Buffalo Sabres",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T02:50:25.763359"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "New York Knicks vs Boston Celtics",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322988"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "New York Knicks vs Toronto Raptors",
+      "time": "19:30",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322992"
+    },
+    {
       "date": "2026-04-11",
       "title": "UFC 327",
       "time": "19:00",
@@ -828,6 +1284,30 @@
       "color": "white",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528037"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Miami Heat vs New York Knicks",
+      "time": "18:00",
+      "type": "NBA Regular Season",
+      "venue": "Kaseya Center",
+      "location": "Miami, FL",
+      "category": "heat",
+      "color": "red",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322878"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "New York Knicks vs Charlotte Hornets",
+      "time": "18:00",
+      "type": "NBA Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "knicks",
+      "color": "yellow",
+      "isNew": false,
+      "dateAdded": "2026-02-13T03:20:38.322998"
     },
     {
       "date": "2026-04-29",
