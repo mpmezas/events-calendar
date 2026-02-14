@@ -110,6 +110,19 @@
             color: #1e3c72;
             margin-bottom: 10px;
         }
+        
+        .subscribe-container {
+            padding: 20px;
+            background: #e8f4f8;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .subscribe-container h3 {
+            font-size: 1.2em;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        
         .category-btn {
             padding: 8px 16px;
             border: none;
@@ -459,6 +472,7 @@
             .last-updated { padding: 12px 20px; }
             .controls { padding: 20px; }
             .category-downloads { padding: 15px; }
+            .subscribe-container { padding: 15px; }
             .button-group { gap: 10px; }
             .btn { padding: 10px 16px; font-size: 0.9em; }
             .calendar-container { padding: 15px; }
@@ -481,6 +495,8 @@
             .view-btn { flex: 1; justify-content: center; padding: 12px 10px; font-size: 0.9em; }
             .category-downloads { padding: 12px; }
             .category-downloads h3 { font-size: 0.9em; }
+            .subscribe-container { padding: 12px; }
+            .subscribe-container h3 { font-size: 0.9em; }
             .category-btn { padding: 6px 12px; font-size: 0.8em; }
             .button-group { gap: 8px; }
             .btn { padding: 8px 12px; font-size: 0.85em; }
@@ -680,17 +696,12 @@
             </div>
         </div>
 
-        <div class="controls">
-            <div class="view-toggle">
-                <button class="view-btn active" onclick="switchView('calendar')">📅 Calendar View</button>
-                <button class="view-btn" onclick="switchView('list')">📋 List View</button>
-            </div>
-
-            <div class="category-downloads">
-                <h3>📅 Subscribe to Auto-Updating Calendar Feeds:</h3>
-                <p style="margin-bottom: 15px; opacity: 0.9;">Subscribe once and your calendar updates automatically when new events are added!</p>
-                
-                <div class="subscribe-section">
+        <!-- Subscribe Section -->
+        <div class="subscribe-container">
+            <h3>📅 Subscribe to Auto-Updating Calendar Feeds:</h3>
+            <p style="margin-bottom: 15px; opacity: 0.9;">Subscribe once and your calendar updates automatically when new events are added!</p>
+            
+            <div class="subscribe-section">
                     <div class="feed-option">
                         <div class="feed-info">
                             <span class="feed-icon">🔵</span>
@@ -889,6 +900,14 @@
                         </p>
                     </div>
                 </details>
+            </div>
+        </div>
+
+        <!-- View Controls -->
+        <div class="controls">
+            <div class="view-toggle">
+                <button class="view-btn active" onclick="switchView('calendar')">📅 Calendar View</button>
+                <button class="view-btn" onclick="switchView('list')">📋 List View</button>
             </div>
 
             <div class="button-group">
