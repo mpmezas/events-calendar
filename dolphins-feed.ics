@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//2026 Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Miami Dolphins 2026
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Auto-updating calendar feed for Miami Dolphins 2026
+END:VCALENDAR

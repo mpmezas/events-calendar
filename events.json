@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T19:04:27.871459",
+  "lastUpdated": "2026-02-13T22:03:32.386847",
   "events": [
     {
       "date": "2026-01-02",
@@ -12,18 +12,6 @@
       "color": "yellow",
       "isNew": false,
       "dateAdded": "2026-02-13T17:13:06.486634"
-    },
-    {
-      "date": "2026-01-02",
-      "title": "New York Rangers vs Montreal Canadiens",
-      "time": "19:00",
-      "type": "NHL Regular Season",
-      "venue": "Madison Square Garden",
-      "location": "New York, NY",
-      "category": "rangers",
-      "color": "white",
-      "isNew": false,
-      "dateAdded": "2026-02-13T19:04:27.871311"
     },
     {
       "date": "2026-01-03",
@@ -1190,6 +1178,18 @@
       "dateAdded": "2026-02-12T12:05:38.528025"
     },
     {
+      "date": "2026-04-02",
+      "title": "New York Rangers vs Montreal Canadiens",
+      "time": "19:00",
+      "type": "NHL Regular Season",
+      "venue": "Madison Square Garden",
+      "location": "New York, NY",
+      "category": "rangers",
+      "color": "white",
+      "isNew": false,
+      "dateAdded": "2026-02-13T22:03:32.386676"
+    },
+    {
       "date": "2026-04-03",
       "title": "Ricardo Arjona",
       "time": "20:00",
@@ -1335,7 +1335,7 @@
     },
     {
       "date": "2026-04-12",
-      "title": "Miami Heat vs New York Knicks",
+      "title": "Miami Heat vs Atlanta Hawks",
       "time": "18:00",
       "type": "NBA Regular Season",
       "venue": "Kaseya Center",

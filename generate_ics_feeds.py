@@ -16,10 +16,7 @@ def create_ics_feed(events, calendar_name, category=None):
     else:
         filtered_events = events
     
-    if not filtered_events:
-        return None
-    
-    # Start ICS file
+    # Start ICS file (create even if empty so subscription links work)
     ics = f"""BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//2026 Events Calendar//EN
@@ -42,6 +39,27 @@ X-WR-CALDESC:Auto-updating calendar feed for {calendar_name}
         # Format for ICS (YYYYMMDDTHHMMSS)
         dt_start = f"{year:04d}{month:02d}{day:02d}T{hours:02d}{minutes:02d}00"
         
+        # Calculate end time (3 hours after start)
+        end_hours = hours + 3
+        end_day = day
+        end_month = month
+        end_year = year
+        
+        # Handle day rollover if event goes past midnight
+        if end_hours >= 24:
+            end_hours -= 24
+            end_day += 1
+            # Simple day rollover (doesn't handle month boundaries perfectly, but good enough for most cases)
+            days_in_month = [31, 29 if year % 4 == 0 else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            if end_day > days_in_month[month - 1]:
+                end_day = 1
+                end_month += 1
+                if end_month > 12:
+                    end_month = 1
+                    end_year += 1
+        
+        dt_end = f"{end_year:04d}{end_month:02d}{end_day:02d}T{end_hours:02d}{minutes:02d}00"
+        
         # Create unique UID
         uid = f"{event['date']}-{event['title'].replace(' ', '-')}@calendar2026"
         
@@ -50,6 +68,7 @@ X-WR-CALDESC:Auto-updating calendar feed for {calendar_name}
 UID:{uid}
 DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%S')}Z
 DTSTART:{dt_start}
+DTEND:{dt_end}
 SUMMARY:{event['title']}
 DESCRIPTION:{event['type']}
 LOCATION:{event['venue']}
@@ -86,16 +105,13 @@ def main():
     # Generate feed for each category
     for category, name in categories.items():
         ics_content = create_ics_feed(events, name, category)
+        filename = f"{category}-feed.ics"
         
-        if ics_content:
-            filename = f"{category}-feed.ics"
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(ics_content)
-            
-            event_count = len([e for e in events if e.get('category') == category])
-            print(f"✅ Created {filename} ({event_count} events)")
-        else:
-            print(f"⚠️  Skipped {category} (no events)")
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(ics_content)
+        
+        event_count = len([e for e in events if e.get('category') == category])
+        print(f"✅ Created {filename} ({event_count} events)")
     
     # Generate "All Events" feed
     all_ics = create_ics_feed(events, "All 2026 Events")
