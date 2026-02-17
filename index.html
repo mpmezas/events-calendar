@@ -702,23 +702,6 @@
             <h3>📅 Subscribe to Auto-Updating Calendar Feeds:</h3>
             <p style="margin-bottom: 15px; opacity: 0.9; text-align: center;">Subscribe once and your calendar updates automatically when new events are added!</p>
             
-            <div style="background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; border: 2px solid #28a745;">
-                <div style="font-size: 2em; font-weight: bold; color: #155724; margin-bottom: 5px;" id="totalSubscribers">0</div>
-                <div style="font-size: 0.9em; color: #155724; font-weight: 600;">Total Subscribe Button Clicks</div>
-                <div style="font-size: 0.75em; color: #155724; opacity: 0.8; margin-top: 5px;">Engagement metric • Updates when "Subscribe" buttons are clicked</div>
-            </div>
-            
-            <details style="margin-bottom: 15px;">
-                <summary style="cursor: pointer; font-size: 0.9em; color: #1e3c72; font-weight: 600; padding: 10px; background: #f8f9fa; border-radius: 6px;">
-                    ℹ️ About the Subscription Counter
-                </summary>
-                <div style="padding: 15px; background: #f8f9fa; border-radius: 6px; margin-top: 5px; font-size: 0.85em; line-height: 1.6;">
-                    <p style="margin: 0 0 10px 0;"><strong>What this counter shows:</strong> Number of times the "📡 Subscribe" button has been clicked on this device/browser.</p>
-                    <p style="margin: 0 0 10px 0;"><strong>What it doesn't show:</strong> Actual active subscriptions (ICS feeds are static files, so we can't track who's subscribed).</p>
-                    <p style="margin: 0;"><strong>For actual traffic data:</strong> Check your GitHub repository's "Insights" → "Traffic" tab to see page views and feed file downloads.</p>
-                </div>
-            </details>
-            
             <div class="subscribe-section">
                     <div class="feed-option">
                         <div class="feed-info">
@@ -1072,9 +1055,6 @@
                 document.getElementById('legendOthersportsCount').textContent = othersportsCount;
                 document.getElementById('legendOtherCount').textContent = otherCount;
                 
-                // Load and display subscription counter
-                loadSubscriptionCount();
-                
                 renderCalendar();
                 renderList();
             } catch (error) {
@@ -1382,24 +1362,8 @@
             };
             downloadICSFile(ics, `${categoryNames[category]}-2026.ics`);
         }
-        
-        // Subscription Counter Functions
-        function loadSubscriptionCount() {
-            const count = localStorage.getItem('subscriptionCount') || 0;
-            document.getElementById('totalSubscribers').textContent = parseInt(count).toLocaleString();
-        }
-        
-        function incrementSubscriptionCount() {
-            let count = parseInt(localStorage.getItem('subscriptionCount') || 0);
-            count++;
-            localStorage.setItem('subscriptionCount', count);
-            document.getElementById('totalSubscribers').textContent = count.toLocaleString();
-        }
 
         function subscribeToFeed(category) {
-            // Increment subscription counter
-            incrementSubscriptionCount();
-            
             // Get the current page URL and construct the feed URL
             const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
             const feedUrl = `${baseUrl}${category}-feed.ics`;
