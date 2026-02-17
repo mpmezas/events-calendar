@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T22:03:32.386847",
+  "lastUpdated": "2026-02-17T19:15:03.695179",
   "events": [
     {
       "date": "2026-01-02",
@@ -1524,6 +1524,66 @@
       "color": "green",
       "isNew": false,
       "dateAdded": "2026-02-12T12:05:38.528048"
+    },
+    {
+      "date": "2026-12-31",
+      "title": "Miami Dolphins Home Game (Date TBD)",
+      "time": "13:00",
+      "type": "NFL Regular Season - Date To Be Announced",
+      "venue": "Hard Rock Stadium",
+      "location": "Miami Gardens, FL",
+      "category": "dolphins",
+      "color": "blue",
+      "isNew": false,
+      "dateAdded": "2026-02-17T19:15:03.694908"
+    },
+    {
+      "date": "2026-12-31",
+      "title": "Art Basel Miami Beach - Preview Day (Date TBD)",
+      "time": "11:00",
+      "type": "Art Exhibition",
+      "venue": "Miami Beach Convention Center",
+      "location": "Miami Beach, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-17T19:15:03.695001"
+    },
+    {
+      "date": "2026-12-31",
+      "title": "Art Basel Miami Beach - Opening Day (Date TBD)",
+      "time": "12:00",
+      "type": "Art Exhibition",
+      "venue": "Miami Beach Convention Center",
+      "location": "Miami Beach, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-17T19:15:03.695013"
+    },
+    {
+      "date": "2026-12-31",
+      "title": "Art Basel Miami Beach - Day 2 (Date TBD)",
+      "time": "12:00",
+      "type": "Art Exhibition",
+      "venue": "Miami Beach Convention Center",
+      "location": "Miami Beach, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-17T19:15:03.695019"
+    },
+    {
+      "date": "2026-12-31",
+      "title": "Art Basel Miami Beach - Final Day (Date TBD)",
+      "time": "12:00",
+      "type": "Art Exhibition",
+      "venue": "Miami Beach Convention Center",
+      "location": "Miami Beach, FL",
+      "category": "other",
+      "color": "green",
+      "isNew": false,
+      "dateAdded": "2026-02-17T19:15:03.695025"
     }
   ]
 }

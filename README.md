@@ -41,6 +41,22 @@ Once deployed, your feeds will be available at:
 
 **📖 Full instructions:** See [SUBSCRIPTION_GUIDE.md](SUBSCRIPTION_GUIDE.md) for detailed setup instructions for all calendar apps.
 
+## 📊 Subscription Tracking
+
+The calendar includes a built-in subscription counter that shows how many times users click the "Subscribe" buttons. This helps you gauge interest and engagement!
+
+**What's tracked:**
+- ✅ Subscribe button clicks (displayed on the page)
+- ✅ GitHub Traffic Stats (page views, visitors)
+
+**Additional tracking options:**
+- See [ANALYTICS_GUIDE.md](ANALYTICS_GUIDE.md) for detailed instructions on:
+  - Using GitHub's built-in traffic stats
+  - Adding Google Analytics (optional)
+  - Privacy-focused alternatives (Plausible, Simple Analytics)
+
+**Note:** ICS feeds are static files, so actual subscription counts cannot be tracked. The counter shows engagement/interest metrics.
+
 ## 🚀 Quick Setup (5 Minutes)
 
 ### Step 1: Create Your GitHub Repository
@@ -177,7 +193,11 @@ events-calendar/
 ├── index.html                    # Main website
 ├── events.json                   # Event data (auto-updated)
 ├── scrape_events.py             # Scraper script
+├── generate_ics_feeds.py        # Generate subscription feeds
 ├── README.md                     # This file
+├── SUBSCRIPTION_GUIDE.md        # How to subscribe to calendar feeds
+├── ANALYTICS_GUIDE.md           # Tracking & analytics options
+├── *-feed.ics                   # Auto-updating ICS feeds
 └── .github/
     └── workflows/
         └── update-events.yml    # Auto-update workflow
